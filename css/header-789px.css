@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-left-right-padding {
+    padding: 0 56px;
+}
+
+.header__nav {
+    width: 60%;
+}
