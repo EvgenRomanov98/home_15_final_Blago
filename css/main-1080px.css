@@ -35,6 +35,7 @@ header {
 }
 
 .main__section-text__h2 {
+    width: 100%;
     font-size: 3rem;
     padding: 0 0 32px 0;
 }
