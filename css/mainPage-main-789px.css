@@ -1,15 +1,15 @@
-header {
-    display: flex;
-    flex-direction: column;
-}
+/*.page-left-right-padding {*/
+    /*padding: 0 56px;*/
+/*}*/
 
-.page-left-right-padding {
-    padding: 0 56px;
-}
+/*header {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+/*}*/
 
-.header__nav {
-    width: 60%;
-}
+/*.header__nav {*/
+    /*width: 60%;*/
+/*}*/
 
 .main__section-text__h2 {
     width: 90%;
@@ -151,9 +151,9 @@ header {
     width: 70%;
 }
 
-.footer-content {
-    width: 50%;
-    padding: 80px 0 110px 0;
-}
+/*.footer-content {*/
+    /*width: 50%;*/
+    /*padding: 80px 0 110px 0;*/
+/*}*/
 
 

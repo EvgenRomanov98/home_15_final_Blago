@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-display: swap;
+    src: url("../fonts/montserrat/Montserrat-Bold.otf") format("truetype"),
+    url("../fonts/montserrat/Montserrat-Black.otf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rawline";
+    src: url("../fonts/rawline-500/rawline-500.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: "Rawline", serif;
+    color: #424242
+}
