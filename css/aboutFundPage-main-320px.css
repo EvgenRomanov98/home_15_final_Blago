@@ -1,3 +1,49 @@
+.about-fund--content {
+    padding: 40px 32px 56px 32px;
+    margin-top: 24px;
+    background-color: #f8f8f8;
+}
+
+.about-fund__h1 {
+    font-family: "Montserrat", serif;
+    font-size: 1.9rem;
+    padding-bottom: 1.9rem;
+    color: #282828;
+}
+
+.about-fund__section__article {
+    margin: 56px 0 56px 0;
+}
+
+.article__h2 {
+    font-family: "Montserrat", serif;
+    font-size: 21px;
+    padding-bottom: 24px;
+    color: #282828;
+}
+
+.article__figure-portrait {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 330px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-circle {
+    padding: 0 24px 0 0;
+    clip-path: circle(49px at 50px 50px);
+}
+
+.indent-bottom--figure-member {
+    margin-bottom: 24px;
+}
+
+.article-list{
+    list-style: circle;
+}
+
 @media (min-width: 1550px) {
     .page-left-right-padding {
         padding: 0 20%;
