@@ -1,7 +1,12 @@
 .about-fund--content {
-    padding: 40px 32px 56px 32px;
+    padding-top: 40px;
+    padding-bottom: 56px;
     margin-top: 24px;
     background-color: #f8f8f8;
+}
+
+.section__p{
+    max-width: 560px;
 }
 
 .about-fund__h1 {
@@ -36,13 +41,29 @@
     clip-path: circle(49px at 50px 50px);
 }
 
-.indent-bottom--figure-member {
+.figure-member {
     margin-bottom: 24px;
 }
 
-.article-list{
-    list-style: circle;
+.article__list {
+    list-style: disc;
+    padding-left: 25px;
+    max-width: 780px;
 }
+
+.article__p--description{
+    padding-bottom: 16px;
+}
+
+.about-fund__section__article:last-child{
+    margin-bottom: 0;
+}
+
+.hr--before-footer{
+    margin: 0;
+    border: solid 0.5px #d7d7d7;
+}
+
 
 @media (min-width: 1550px) {
     .page-left-right-padding {

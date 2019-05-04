@@ -42,4 +42,5 @@ header {
 .header__nav__item {
     padding: 0 5px 1rem 5px;
     color: #424242;
+    text-decoration: none;
 }

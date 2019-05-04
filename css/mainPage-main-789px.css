@@ -1,16 +1,3 @@
-/*.page-left-right-padding {*/
-    /*padding: 0 56px;*/
-/*}*/
-
-/*header {*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-/*}*/
-
-/*.header__nav {*/
-    /*width: 60%;*/
-/*}*/
-
 .main__section-text__h2 {
     width: 90%;
     font-size: 2.6rem;
@@ -32,7 +19,6 @@
 .main__section-text {
     bottom: 80px;
     top: auto;
-    width: 100%;
 }
 
 .main--carousel {
@@ -150,10 +136,3 @@
 .section-help--content {
     width: 70%;
 }
-
-/*.footer-content {*/
-    /*width: 50%;*/
-    /*padding: 80px 0 110px 0;*/
-/*}*/
-
-

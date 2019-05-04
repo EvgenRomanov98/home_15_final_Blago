@@ -1,31 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 15px;
-    list-style: none;
-    text-decoration: none;
-}
-
 @font-face {
     font-family: "Montserrat";
     font-display: swap;
-    src: url("../fonts/montserrat/Montserrat-Bold.otf") format("truetype"),
-    url("../fonts/montserrat/Montserrat-Black.otf") format("truetype");
-    font-weight: 900;
+    src: url('../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff2') format('woff2'),
+    url('../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff') format('woff'),
+    url('../fonts/montserrat/montserrat-v13-cyrillic_latin-700.ttf') format('truetype'),
+    url('../fonts/montserrat/montserrat-v13-cyrillic_latin-700.eot') format('truetype');
+    font-weight: 700;
     font-style: normal;
+    unicode-range: U+0020-04FF;
 }
 
 @font-face {
     font-family: "Rawline";
-    src: url("../fonts/rawline-500/rawline-500.ttf") format("truetype");
-    font-weight: normal;
+    src: url("../fonts/rawline/Rawline-Regular-latin-cyrillic.woff2") format("woff2"),
+    url("../fonts/rawline/Rawline-Regular-latin-cyrillic.woff") format("woff"),
+    url("../fonts/rawline/Rawline-Regular-latin-cyrillic.ttf") format("truetype");
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
+    unicode-range: U+0020-04FF;
 }
 
 body {
-    font-size: 1rem;
     font-weight: normal;
     font-family: "Rawline", serif;
     color: #424242
