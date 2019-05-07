@@ -1,0 +1,56 @@
+.pi__main--carousel {
+    position: relative;
+    height: 290px;
+}
+
+.pi__main__img {
+    height: 290px;
+    width: 100%;
+    object-fit: cover;
+    /*object-position: 60%;*/
+}
+
+.pi__gray-layer {
+    background: linear-gradient(to right, rgba(150, 150, 150, 0.1), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.pi__main__section--content{
+    padding-top: 24px;
+    padding-bottom: 56px;
+}
+
+.pi__section__h2{
+    padding-bottom: 24px;
+    font-family: "Montserrat", serif;
+    font-size: 2rem;
+    color: #282828;
+    line-height: 1.1;
+}
+
+.pi__section__h2:first-child{
+    padding-bottom: 13px;
+}
+
+.pi__section__p--start{
+    color: #a1a1a1;
+    padding-bottom: 32px;
+}
+
+.pi__section__p--sum{
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #24bb13;
+    padding: 8px 0 16px 0;
+}
+
+.pi__section__p--sum__span{
+    font-size: 1rem;
+}

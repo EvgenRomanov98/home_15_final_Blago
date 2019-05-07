@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123" height="25" viewBox="0 0 123 25">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-rule="nonzero" d="M17.662 6.002L16.25 6c-1.586 0-2.61 1.132-2.61 2.884v1.33h-1.42c-.122 0-.221.107-.221.239v1.926c0 .133.1.24.222.24h1.419v4.861c0 .132.099.239.222.239h1.85c.123 0 .223-.107.223-.239v-4.862h1.659c.122 0 .221-.106.221-.239l.001-1.926a.249.249 0 0 0-.065-.17.214.214 0 0 0-.157-.07h-1.66V9.088c0-.542.12-.817.776-.817h.95c.123 0 .222-.108.222-.24V6.241c0-.131-.099-.238-.221-.239z"/>
+        <text fill="#FFF" font-family="Montserrat-SemiBold, Montserrat" font-size="13" font-weight="500">
+            <tspan x="28" y="17">Поділитися</tspan>
+        </text>
+        <rect width="122" height="24" x=".5" y=".5" stroke="#FFF" rx="3"/>
+    </g>
+</svg>

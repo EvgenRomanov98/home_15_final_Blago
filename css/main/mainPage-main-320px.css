@@ -1,23 +1,22 @@
 .main__section-news {
     position: relative;
     width: 100%;
-    padding: 9px 0 0 0;
 }
 
-.main--carousel {
+.pi__main--carousel {
     position: relative;
     height: 460px;
 }
 
-.main__img {
+.pi__main__img {
     height: 460px;
     width: 100%;
     object-fit: cover;
     object-position: 60%;
 }
 
-.gray-layer {
-    background: linear-gradient(to right, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.3));
+.pi__gray-layer {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(1, 1, 1, 0.3));
     position: absolute;
     top: 0;
     bottom: 0;
@@ -53,7 +52,7 @@
     flex-wrap: wrap;
 }
 
-.main__section-text__button {
+.button-donated {
     text-decoration: none;
     border-radius: 8px;
     background-image: linear-gradient(to right, #1eb80f, #73da4e);
@@ -65,7 +64,7 @@
 
 }
 
-.main__section-text__button__text {
+.button-donated--text {
     font-size: 1.3rem;
 }
 
@@ -155,10 +154,6 @@
     padding-bottom: 16px;
 }
 
-.main__section__hr {
-    border: solid 0.5px #d7d7d7
-}
-
 .main__section__article {
     border-radius: 8px;
     background-color: #f8f8f8;
@@ -223,28 +218,28 @@
     margin-bottom: 40px;
 }
 
-@media (min-width: 388px) and (max-width: 499px) {
-    .page-left-right-padding {
-        padding: 0 17%;
-    }
+/*@media (min-width: 388px) and (max-width: 499px) {*/
+    /*.page-left-right-padding {*/
+        /*padding: 0 17%;*/
+    /*}*/
 
-    .header__a--about-fund {
-        margin-right: 10%;
-    }
-}
+    /*.header__a--about-fund {*/
+        /*margin-right: 10%;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 500px) and (max-width: 788px) {
-    .page-left-right-padding {
-        padding: 0 25%;
-    }
-}
+/*@media (min-width: 500px) and (max-width: 788px) {*/
+    /*.page-left-right-padding {*/
+        /*padding: 0 25%;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 600px) {
-    .header__a--about-fund {
-        margin-right: 0;
-        order: 1;
-    }
-}
+/*@media (min-width: 600px) {*/
+    /*.header__a--about-fund {*/
+        /*margin-right: 0;*/
+        /*order: 1;*/
+    /*}*/
+/*}*/
 
 @media (min-width: 650px) {
     .section-donated--info {

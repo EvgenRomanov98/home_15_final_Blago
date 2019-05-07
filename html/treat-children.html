@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Лікування дітей</title>
+
+    <link rel="preload" as="style" type="text/css" href="../css/reset.css">
+    <link rel="preload" as="style" type="text/css" href="../css/setDefaultStyle.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/setDefaultStyle.css">
+
+    <link rel="preload" as="style" type="text/css" href="../css/header/header-320px.css">
+    <link rel="preload" as="style" type="text/css" href="../css/header/header-789px.css" media="(min-width: 789px)">
+    <link rel="preload" as="style" type="text/css" href="../css/header/header-1080px.css" media="(min-width: 1080px)">
+    <link rel="stylesheet" href="../css/header/header-320px.css">
+    <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/header/header-1080px.css" media="(min-width: 1080px)">
+
+    <link rel="preload" as="style" type="text/css" href="../css/treat-children/treatChildrenPage-320px.css">
+    <link rel="stylesheet" href="../css/treat-children/treatChildrenPage-320px.css">
+
+    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-320px.css">
+    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
+    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
+    <link rel="stylesheet" href="../css/footer/footer-320px.css">
+    <link rel="stylesheet" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
+</head>
+<body>
+<header class="page-left-right-padding">
+    <nav class="logo">
+        <div class="logo--redirect">
+            <a href="https://privatbank.ua/" class="logo__redirect-pb"></a>
+            <a href="main.html" class="logo__redirect-blago"></a>
+        </div>
+        <img src="../img/logo.svg" alt="alt">
+    </nav>
+    <nav class="header__nav">
+        <a href="program-fund.html" class="header__nav__item">Програми фонду</a>
+        <a href="about-fund.html" class="header__nav__item header__a--about-fund">Про Фонд</a>
+        <a href="need-help.html" class="header__nav__item">Потрібна допомога?</a>
+    </nav>
+</header>
+<main>
+    <section class="page-left-right-padding main__section--info">
+        <div class="section__div--789px">
+            <img src="../img/pages/need-help/ic-duck.svg" alt="кря" class="main__section__img">
+            <h2 class="section-info__h2">Діти, до 18 років за напрямками:</h2>
+        </div>
+        <ul class="section__list">
+            <li>онкологія;</li>
+            <li>важкі генетичні, інфекційні та інші хвороби;</li>
+            <li>дитячий церебральний параліч;</li>
+            <li>реанімаційна допомога;</li>
+            <li>невідкладна оперативна допомога (ДТП, нещасні випадки).</li>
+        </ul>
+        <p>*Невідкладне лікування (тільки при наявності медичного спрямування на лікування з переліком медикаментів на
+            паперовому носії).</p>
+    </section>
+    <section class="section--form page-left-right-padding">
+        <h2 class="section-form__h2">Заповнити форму для надання допомоги:</h2>
+        <form class="section-form__form">
+            <fieldset class="form__fieldset">
+                <label for="input--date" class="form__label">Дата народження дитини яка потребує допомоги</label>
+                <input type="date" id="input--date" value="2015-08-09" class="form__input--date form__input">
+
+                <label for="input--name" class="form__label">ПIБ дитини яка потребує допомоги</label>
+                <input type="text" id="input--name" class="form__input">
+
+                <label for="select--help" class="form__label">Допомога необхідна</label>
+                <select id="select--help" class="form__input">
+                    <option value="1" selected>Виберіть форму допомоги</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+                <label for="account--payment" class="form__label">Рахунок на оплату</label>
+                <input type="file" id="account--payment" class="form__input">
+
+                <label for="sum" class="form__label">Вкажіть, будь ласка орієнтовну суму допомоги</label>
+                <input type="text" id="sum" class="form__input" placeholder="ГРН">
+            </fieldset>
+            <h2 class="section-form__h2">Додайте, будь ласка, скан копії документів:</h2>
+            <p class="section-form__p">Для загрузки нескольких файлов, добавте файлы в архив zip или rar </p>
+            <fieldset class="form__fieldset">
+                <label for="medical--history" class="form__label">Історія хвороби</label>
+                <input type="file" id="medical--history" class="form__input">
+
+                <label for="birth--certificate" class="form__label">Свідоцтво про народження дитини</label>
+                <input type="file" id="birth--certificate" class="form__input">
+
+                <label for="passport" class="form__label">Паспорт одного з батьків/опікунів</label>
+                <input type="file" id="passport" class="form__input">
+
+                <label for="ITN" class="form__label">ІПН одного з батьків/опікунів</label>
+                <input type="file" id="ITN" class="form__input">
+
+                <label class="form__label"><textarea name="text" cols="30" rows="10" placeholder="Обов'язковий коментар"
+                                                     class="form__input"></textarea></label>
+                <label><input type="checkbox">Я згоден на <span>передачу та обробку особистих даних</span></label>
+
+                <label for="email" class="form__label">Email адреса</label>
+                <input type="email" id="email" class="form__input" placeholder="@">
+
+                <label for="phone" class="form__label">Контактный номер телефона</label>
+                <input type="number" id="phone" class="form__input" placeholder="+380">
+            </fieldset>
+
+            <a href="#" class="button-send"><span
+                    class="button-send--text">Відправити</span></a>
+        </form>
+    </section>
+</main>
+<footer class="page-left-right-padding">
+    <div class="footer-content">
+
+        <div class="footer--right"><p>Контакти:</p>
+            <ul class="footer--list-contact">
+                <li><a href="tel:+38(056)716-38-58" class="footer__a">+38 (056) 716-38-58</a></li>
+                <li><a href="mailto:blago@privatbank.ua" class="footer__a">blago@privatbank.ua</a></li>
+            </ul>
+            <p>Мы в соц. сетях:</p>
+            <ul class="footer--list-soc-net">
+                <li><a href="https://www.facebook.com/blago.privatbank"><img src="../img/fb.svg" alt="fb"
+                                                                             class="footer__soc-net"></a></li>
+                <li><a href="https://www.facebook.com/blago.privatbank"><img src="../img/insta.svg" alt="fb"
+                                                                             class="footer__soc-net"></a></li>
+            </ul>
+        </div>
+
+        <nav class="logo footer-logo">
+            <div class="logo--redirect">
+                <a href="https://privatbank.ua/" class="logo__redirect-pb"></a>
+                <a href="/" class="logo__redirect-blago"></a>
+            </div>
+            <img src="../img/logo.svg" alt="alt">
+            <p class="footer--description">Официальный сайт приватбанка и тд, нужен текст, лицензии или реквизиты</p>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>

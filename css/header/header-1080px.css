@@ -22,3 +22,14 @@ header {
 .header__nav__item {
     padding: 0;
 }
+
+.header__nav__item:first-child {
+    padding-bottom: 0;
+}
+
+@media (min-width: 1550px) {
+    .page-left-right-padding {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

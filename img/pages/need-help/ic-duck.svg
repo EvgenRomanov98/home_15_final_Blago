@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <linearGradient id="a" x1="85.938%" x2="16.875%" y1="81.875%" y2="16.563%">
+            <stop offset="0%" stop-color="#EB46F6"/>
+            <stop offset="100%" stop-color="#8085E8"/>
+        </linearGradient>
+        <linearGradient id="b" x1="100%" x2="0%" y1="31.43%" y2="43.189%">
+            <stop offset="0%" stop-color="#FF9D37"/>
+            <stop offset="100%" stop-color="#FFD840"/>
+        </linearGradient>
+        <linearGradient id="c" x1="100%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FF4C19"/>
+            <stop offset="100%" stop-color="#FF8C6B"/>
+        </linearGradient>
+        <linearGradient id="d" x1=".925%" y1="31.524%" y2="61.023%">
+            <stop offset="0%" stop-color="#FF9374"/>
+            <stop offset="100%" stop-color="#FF4916"/>
+        </linearGradient>
+        <linearGradient id="e" x1="85.849%" x2="19.34%" y1="14.623%" y2="87.5%">
+            <stop offset="0%" stop-color="#F3D120"/>
+            <stop offset="100%" stop-color="#FBE960"/>
+        </linearGradient>
+        <linearGradient id="f" x1="2.253%" x2="96.996%" y1="10.225%" y2="12.109%">
+            <stop offset="0%" stop-color="#FF8C6D"/>
+            <stop offset="100%" stop-color="#F23609"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="28" cy="28" r="28" fill="url(#a)"/>
+        <path fill="url(#b)" d="M21.27 14.44c6.053.693 11.293.04 15.72-1.96 0 0 3.26 12.92-7.86 17.24-11.12 4.32-18.12-1.8-19.12-6.64-.667-3.227-.52-6.107.44-8.64h10.82z" transform="translate(7.68 13.12)"/>
+        <path fill="url(#c)" d="M1.3 9.33c-.127.513 0 .95.38 1.31.57.54 2.54 1.94 6.53 1.57 2.66-.247 2.43-1.013-.69-2.3L1.3 9.33z" transform="translate(7.68 13.12)"/>
+        <path fill="url(#d)" d="M7.568 6.72c-1.933.88-4.12 1.173-6.56.88 0 0-1.34-.18-.93.745.273.617 1.012 1.102 2.215 1.455 1.51.32 3.268.437 5.275.35V6.72z" transform="translate(7.68 13.12)"/>
+        <g transform="translate(15.04 13.12)">
+            <circle cx="8.48" cy="8.48" r="8.48" fill="url(#e)"/>
+            <circle cx="5.6" cy="6.88" r="2.08" fill="#994B00"/>
+        </g>
+        <path fill="url(#f)" d="M16.32 18.16c5.907 2.52 11.233 2.44 15.98-.24 0 0-1.5 8.16-8.1 7.38-4.4-.52-7.027-2.9-7.88-7.14z" transform="translate(7.68 13.12)"/>
+    </g>
+</svg>

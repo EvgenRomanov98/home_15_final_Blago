@@ -1,0 +1,39 @@
+.main__section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 110px;
+}
+
+.main__section__img {
+    width: 40%;
+    min-height: 250px;
+    max-height: 460px;
+    padding-bottom: 0;
+    margin-right: 46px;
+    object-fit: cover;
+}
+
+.main--right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section--info-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.program-fund__main {
+    padding-top: 80px;
+}
+
+.section__article:first-child {
+    margin-bottom: 0;
+}
+
+.section--info-card {
+    max-width: 450px;
+}
+

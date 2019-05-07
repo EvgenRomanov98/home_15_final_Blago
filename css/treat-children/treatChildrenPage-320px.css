@@ -1,0 +1,121 @@
+.main__section--info {
+    padding-bottom: 56px;
+    padding-top: 40px;
+    background-color: #f8f8f8;
+}
+
+.main__section__img {
+    padding-bottom: 40px;
+}
+
+.section-info__h2 {
+    display: block;
+    font-family: "Montserrat", serif;
+    font-size: 1.9rem;
+    color: #282828;
+    line-height: 1.1;
+    padding-bottom: 24px;
+}
+
+.section__list {
+    list-style: disc;
+    padding: 0 0 24px 25px;
+}
+
+.section--form {
+    padding-top: 40px;
+    padding-bottom: 56px;
+}
+
+.section-form__h2 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    color: #282828;
+}
+
+.form__fieldset {
+    padding-top: 24px;
+    padding-bottom: 56px;
+}
+
+.form__fieldset:nth-child(even) {
+    padding-bottom: 24px;
+}
+
+.form__label {
+    display: block;
+    margin: 16px 0;
+    line-height: 1;
+    width: 100%;
+}
+
+.form__label:first-child {
+    padding-top: 0;
+}
+
+.form__input {
+    border: 1px solid #757575;
+    border-radius: 5px;
+    padding: 1rem 24px;
+    width: 80%;
+    max-width: 370px;
+}
+
+.form__input--date {
+    background: #fff url(../../img/calender.svg) 90% 50% no-repeat;
+}
+
+.form__input--date::-webkit-inner-spin-button {
+    display: none;
+}
+
+.form__input--date::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.section-form__p {
+    padding-top: 16px;
+}
+
+.button-send {
+    text-decoration: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #1eb80f, #73da4e);
+    padding: 1rem;
+    color: #fff;
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    max-width: 420px;
+}
+
+.button-send--text {
+    font-size: 1.3rem;
+}
+
+@media (min-width: 789px) {
+    .section__div--789px {
+        display: flex;
+        /*justify-content: space-between;*/
+        align-items: center;
+    }
+
+    .main__section__img {
+        display: block;
+        order: 2;
+        padding: 0;
+        margin-left: 30%;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .main__section__img {
+        margin-left: 40%;
+    }
+}
+
+

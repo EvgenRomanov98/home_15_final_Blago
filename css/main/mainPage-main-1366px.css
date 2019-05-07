@@ -34,9 +34,9 @@
 }
 
 @media (min-width: 1550px) {
-    .page-left-right-padding{
-        padding: 0 20%;
-    }
+    /*.page-left-right-padding{*/
+        /*padding: 0 20%;*/
+    /*}*/
 
     .main__section-text{
         padding: 0 20% 0 0;
