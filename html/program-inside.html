@@ -17,8 +17,26 @@
     <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px)">
     <link rel="stylesheet" href="../css/header/header-1080px.css" media="(min-width: 1080px)">
 
+    <link rel="stylesheet" href="../css/index/indexPage-main-320px.css">
+    <link rel="preload" as="style" type="text/css" href="../css/index/indexPage-main-789px.css"
+          media="(min-width: 789px)">
+    <link rel="preload" as="style" type="text/css" href="../css/index/indexPage-main-1080px.css"
+          media="(min-width: 1080px)">
+    <link rel="preload" as="style" type="text/css" href="../css/index/indexPage-main-1366px.css"
+          media="(min-width: 1366px)">
+    <link rel="stylesheet" href="../css/index/indexPage-main-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/index/indexPage-main-1080px.css" media="(min-width: 1080px)">
+    <link rel="stylesheet" href="../css/index/indexPage-main-1366px.css" media="(min-width: 1366px)">
+
     <link rel="preload" as="style" type="text/css" href="../css/program-inside/programInsidePage-main-320px.css">
+    <link rel="preload" as="style" type="text/css" href="../css/program-inside/programInsidePage-main-789px.css"
+          media="(min-width: 789px)">
+    <link rel="preload" as="style" type="text/css" href="../css/program-inside/programInsidePage-main-1080px.css"
+          media="(min-width: 1080px)">
     <link rel="stylesheet" href="../css/program-inside/programInsidePage-main-320px.css">
+    <link rel="stylesheet" href="../css/program-inside/programInsidePage-main-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/program-inside/programInsidePage-main-1080px.css" media="(min-width: 1080px)">
+
 
     <link rel="preload" as="style" type="text/css" href="../css/footer/footer-320px.css">
     <link rel="preload" as="style" type="text/css" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
@@ -32,7 +50,7 @@
     <nav class="logo">
         <div class="logo--redirect">
             <a href="https://privatbank.ua/" class="logo__redirect-pb"></a>
-            <a href="main.html" class="logo__redirect-blago"></a>
+            <a href="index.html" class="logo__redirect-blago"></a>
         </div>
         <img src="../img/logo.svg" alt="alt">
     </nav>
@@ -43,7 +61,7 @@
     </nav>
 </header>
 <main>
-    <section>
+    <section class="pi__main__section--carousel">
         <div class="pi__main--carousel">
             <div class="pi__gray-layer"></div>
             <img src="../img/help-arm.jpg" alt="arm" class="pi__main__img">
@@ -51,15 +69,182 @@
 
         <div class="pi__main__section--content page-left-right-padding">
             <h2 class="pi__section__h2">Підтримка армії</h2>
-            <p class="pi__section__p--start">Стартовала 06.06.2014</p>
-            <!--<img src="../img/fb-outline.svg" alt="fb">-->
-            <p>Уже собрано:</p>
-            <p class="pi__section__p--sum">27 024 203.<span class="pi__section__p--sum__span">50</span> ₴</p>
-            <p>Витрати:</p>
-            <p class="pi__section__p--sum">25 238 638.<span class="pi__section__p--sum__span">50</span> ₴</p>
+            <div class="pi__section__div--fb">
+                <p class="pi__section__p--start">Стартовала 06.06.2014</p>
+                <img src="../img/fb-outline.svg" alt="fb" class="fb--outline">
+            </div>
+            <hr class="pi__section__hr--help-army">
+            <div class="pi_section__div--donated-and-costs">
+                <div class="pi__section--left-donated">
+                    <p>Уже собрано:</p>
+                    <p class="pi__section__p--sum pi--green-color">27 024 203.<span
+                            class="pi__section__p--sum__span">50</span>
+                        ₴</p>
+                </div>
+                <div class="pi__section--right-costs">
+                    <p>Витрати:</p>
+                    <p class="pi__section__p--sum">25 238 638.<span class="pi__section__p--sum__span">50</span> ₴</p>
+                </div>
+            </div>
+            <form class="pi__form-donated--sum">
+                <label class="pi__form-donated__label">
+                    <input type="text" placeholder="Сума грн" class="pi__input-donated">
+                </label>
+                <button type="submit" class="pi__button-donated">Пожертвувати</button>
+            </form>
+            <ul class="pi__list--sum-donated">
+                <li class="pi__list__item"><a href="#" class="pi__list__li__a--sum">10грн</a></li>
+                <li class="pi__list__item"><a href="#" class="pi__list__li__a--sum">25грн</a></li>
+                <li class="pi__list__item"><a href="#" class="pi__list__li__a--sum">50грн</a></li>
+                <li class="pi__list__item"><a href="#" class="pi__list__li__a--sum">150грн</a></li>
+            </ul>
         </div>
 
     </section>
+
+    <section class="pi__section page-left-right-padding">
+        <div class="pi__section__div--left">
+            <h2 class="pi__section__h2">Про програму</h2>
+            <p class="pi__section__p--text">Наша країна переживає випробування, з якими ніколи не стикалася. Вперше в
+                Україні війна, вперше масово гинуть
+                люди від рук терористів. З червня 2014 року ми збираємо кошти на закупівлю теплих речей, обмундировання,
+                засобів захисту, медикаментів і медичного обладнання для воїнів України. Пропонуємо Вам узяти участь у
+                програмі підримки армії України, яка організована ПриватБанком.</p>
+        </div>
+        <article class="pi__section__article--right">
+            <div class="pi__article--photo-report">
+                <h2 class="pi__section__h2">Фотозвіт</h2>
+                <div class="pi__article__img--next-previous">
+                    <img src="../img/next.svg" class="pi__section-photo-report__img--previous" alt="previous">
+                    <img src="../img/next.svg" alt="next">
+                </div>
+            </div>
+            <div class="pi__article--photo-report__div">
+                <img src="../img/medical.jpg" alt="фотозвіт" class="pi__article__div__img--photo-report">
+                <img src="../img/medical.jpg" alt="фотозвіт" class="pi__article__div__img--photo-report">
+                <img src="../img/medical.jpg" alt="фотозвіт" class="pi__article__div__img--photo-report">
+                <img src="../img/medical.jpg" alt="фотозвіт" class="pi__article__div__img--photo-report">
+                <img src="../img/medical.jpg" alt="фотозвіт" class="pi__article__div__img--photo-report">
+                <img src="../img/medical.jpg" alt="фотозвіт" class="pi__article__div__img--photo-report">
+            </div>
+        </article>
+    </section>
+
+    <!---->
+
+    <div class="i__section-donated-costs">
+        <section class="page-left-right-padding i__section-donated">
+            <h2 class="i__main__section__h2 i__section__h2--padding">Пожертвування</h2>
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <article class="pi__main__section__article">
+                <p class="pi__article__p--info-donated">
+                    <span class="i__main__section__article--time">8 Жовтня 14:30:00</span>
+                    <span class="i__main__section-donated__article--name">— Андрей</span></p>
+                <h3 class="pi__main__section-donated__article__p--sum">+250.00 ₴</h3>
+            </article>
+
+            <button class="pi__section__button--show-more">Показати ще</button>
+        </section>
+
+        <section class="page-left-right-padding i__section-costs">
+            <h2 class="i__main__section__h2 i__section__h2--padding">Витрати</h2>
+            <article class="i__main__section__article">
+                <p class="i__main__section-costs__article__p"><span
+                        class="i__main__section__article--time">14 Серпня 2018</span> <span
+                        class="i__main__section__article__p--costs">61 000.00 ₴</span></p>
+                <p class="pi__article__h3"><span class="i__main__section__article--gray-text">Кому:</span>
+                    Чернигівський військовий шпиталь ВЧ А3120</p>
+                <h3><span class="i__main__section__article--gray-text">Вид допомоги:</span> Комплект медичного
+                    обладнення
+                </h3>
+            </article>
+
+            <article class="i__main__section__article">
+                <p class="i__main__section-costs__article__p"><span
+                        class="i__main__section__article--time">14 Серпня 2018</span> <span
+                        class="i__main__section__article__p--costs">61 000.00 ₴</span></p>
+                <p class="pi__article__h3"><span class="i__main__section__article--gray-text">Кому:</span>
+                    Чернигівський військовий шпиталь ВЧ А3120</p>
+                <h3><span class="i__main__section__article--gray-text">Вид допомоги:</span> Комплект медичного
+                    обладнення
+                </h3>
+            </article>
+
+            <article class="i__main__section__article">
+                <p class="i__main__section-costs__article__p"><span
+                        class="i__main__section__article--time">14 Серпня 2018</span> <span
+                        class="i__main__section__article__p--costs">61 000.00 ₴</span></p>
+                <p class="pi__article__h3"><span class="i__main__section__article--gray-text">Кому:</span>
+                    Чернигівський військовий шпиталь ВЧ А3120</p>
+                <h3><span class="i__main__section__article--gray-text">Вид допомоги:</span> Комплект медичного
+                    обладнення
+                </h3>
+            </article>
+
+            <article class="i__main__section__article">
+                <p class="i__main__section-costs__article__p"><span
+                        class="i__main__section__article--time">14 Серпня 2018</span> <span
+                        class="i__main__section__article__p--costs">61 000.00 ₴</span></p>
+                <p class="pi__article__h3"><span class="i__main__section__article--gray-text">Кому:</span>
+                    Чернигівський військовий шпиталь ВЧ А3120</p>
+                <h3><span class="i__main__section__article--gray-text">Вид допомоги:</span> Комплект медичного
+                    обладнення
+                </h3>
+            </article>
+
+            <button class="pi__section__button--show-more">Показати ще</button>
+        </section>
+    </div>
+
+    <!---->
 </main>
 <footer class="page-left-right-padding">
     <div class="footer-content">

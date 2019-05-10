@@ -1,21 +1,21 @@
-.main__section-news {
+.i__main__section-news {
     position: relative;
     width: 100%;
 }
 
-.pi__main--carousel {
+.i__main--carousel {
     position: relative;
     height: 460px;
 }
 
-.pi__main__img {
+.i__main__img {
     height: 460px;
     width: 100%;
     object-fit: cover;
     object-position: 60%;
 }
 
-.pi__gray-layer {
+.i__gray-layer {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(1, 1, 1, 0.3));
     position: absolute;
     top: 0;
@@ -25,7 +25,7 @@
     z-index: 1;
 }
 
-.main__section-text {
+.i__main__section-text {
     position: absolute;
     z-index: 2;
     font-family: "Montserrat", serif;
@@ -38,21 +38,21 @@
 
 }
 
-.arrows-1080px-full {
+.i__arrows-1080px-full {
     display: none;
 }
 
-.main__section-text__h2 {
+.i__main__section-text__h2 {
     padding: 0 0 24px 0;
     font-size: 1.8rem;
 }
 
-.section-news--button-and-arrows-789px {
+.i__section-news--button-and-arrows-789px {
     display: flex;
     flex-wrap: wrap;
 }
 
-.button-donated {
+.i__button-donated {
     text-decoration: none;
     border-radius: 8px;
     background-image: linear-gradient(to right, #1eb80f, #73da4e);
@@ -61,23 +61,22 @@
     letter-spacing: 0.3px;
     text-align: center;
     width: 100%;
-
 }
 
-.button-donated--text {
+.i__button-donated--text {
     font-size: 1.3rem;
 }
 
-.main__section__arrow {
+.i__main__section__arrow {
     padding: 24px 24px 0 0;
 }
 
-.main__section--gray-background {
+.i__main__section--gray-background {
     background-color: #fafafa;
     padding: 40px 0 56px 0;
 }
 
-.main__section-fund-h2 {
+.i__main__section-fund-h2 {
     padding-bottom: 1.6rem;
     font-family: "Montserrat", serif;
     font-size: 2rem;
@@ -85,16 +84,16 @@
     color: #282828;
 }
 
-.main__section-fund--downloadPDF {
+.i__main__section-fund--downloadPDF {
     color: #24bb13;
     text-decoration: none;
 }
 
-.main__section-fund--info-donated {
+.i__main__section-fund--info-donated {
     padding: 1.5rem 0;
 }
 
-.main__section-fund--count-donated {
+.i__main__section-fund--count-donated {
     color: #24bb13;
     font-family: "Montserrat", serif;
     font-size: 2rem;
@@ -105,26 +104,26 @@
 }
 
 
-.section-fund__span--count-donated {
+.i__section-fund__span--count-donated {
     font-family: "Montserrat", serif;
     font-size: 2rem;
     letter-spacing: 5px;
 }
 
-.main__section-fund--description {
+.i__main__section-fund--description {
     font-family: "Montserrat", serif;
     font-size: 1.3rem;
     color: #282828;
     padding-top: 1.5rem;
 }
 
-.main__section__h2 {
+.i__main__section__h2 {
     font-family: "Montserrat", serif;
     font-size: 2rem;
     padding: 2.5rem 0 2rem 0;
 }
 
-.main__section-program--show-all {
+.i__main__section-program--show-all {
     display: block;
     font-family: "Montserrat", serif;
     font-size: 1rem;
@@ -134,12 +133,12 @@
     text-decoration: none;
 }
 
-.main__section-card__article {
+.i__main__section-card__article {
     width: 100%;
     padding-bottom: 56px;
 }
 
-.section-program__img {
+.i__section-program__img {
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -147,14 +146,14 @@
     margin-bottom: 1.5rem;
 }
 
-.section-program__article__h3 {
+.i__section-program__article__h3 {
     font-family: "Montserrat", serif;
     font-size: 1.3rem;
     color: #282828;
     padding-bottom: 16px;
 }
 
-.main__section__article {
+.i__main__section__article {
     border-radius: 8px;
     background-color: #f8f8f8;
     padding: 8px 16px;
@@ -163,11 +162,11 @@
     margin-bottom: 16px;
 }
 
-.main__section__article:last-child {
+.i__main__section__article:last-child {
     margin: 0;
 }
 
-.main__section-costs__article__p {
+.i__main__section-costs__article__p {
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
@@ -176,80 +175,58 @@
     flex-wrap: wrap;
 }
 
-.main__section__article--time {
+.i__main__section__article--time {
     color: #a1a1a1;
 }
 
-.main__section-donated__article--name {
+.i__main__section-donated__article--name {
     color: #424242;
     font-weight: bold;
 }
 
-.main__section-donated__article__p--sum {
+.i__main__section-donated__article__p--sum {
     color: #24bb13;
     font-family: "Montserrat", serif;
     padding-bottom: 10px;
 }
 
-.main__section__article--gray-text {
+.i__main__section__article--gray-text {
     color: #a1a1a1;
+    font-weight: normal;
 }
 
-.main__section__article--h3 {
+.i__main__section__article--h3 {
     color: #282828;
     font-weight: normal;
 }
 
-.main__section__article__p--costs {
+.i__main__section__article__p--costs {
     color: #24bb13;
     font-family: "Montserrat", serif;
     font-weight: bold;
 }
 
-.section-history-789px__article {
+.i__section-history-789px__article {
     padding: 0 0 56px 0;
 }
 
-.padding-bottom10px {
+.i__padding-bottom10px {
     padding-bottom: 10px;
 }
 
-.section-costs {
+.i__section-costs {
     margin-bottom: 40px;
 }
 
-/*@media (min-width: 388px) and (max-width: 499px) {*/
-    /*.page-left-right-padding {*/
-        /*padding: 0 17%;*/
-    /*}*/
-
-    /*.header__a--about-fund {*/
-        /*margin-right: 10%;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 500px) and (max-width: 788px) {*/
-    /*.page-left-right-padding {*/
-        /*padding: 0 25%;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 600px) {*/
-    /*.header__a--about-fund {*/
-        /*margin-right: 0;*/
-        /*order: 1;*/
-    /*}*/
-/*}*/
-
 @media (min-width: 650px) {
-    .section-donated--info {
+    .i__section-donated--info {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-content: flex-end;
     }
 
-    .main__section-donated__article__p--sum {
+    .i__main__section-donated__article__p--sum {
         display: flex;
         align-items: flex-end;
     }

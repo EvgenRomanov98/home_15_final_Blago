@@ -1,0 +1,44 @@
+.i__main__section-card__article {
+    width: 25%;
+}
+
+.i__section-program--789px > .i__main__section-card__article:first-child {
+    padding-right: 0.5rem;
+}
+
+.i__section-program--789px > .i__main__section-card__article:last-child {
+    padding-right: 0;
+    padding-left: 0.5rem;
+}
+
+.i__section-program--789px > .i__main__section-card__article:nth-child(n+2):nth-child(-n+3) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.i__section-donated-costs{
+    padding: 0 10% 110px 10%;
+}
+
+.i__section-history-789px__article{
+    width: 50%;
+    padding-bottom: 0;
+}
+
+.i__section-help__article{
+    width: 100%;
+}
+
+.i__section-help__article{
+    margin: 0 0 110px 0;
+}
+
+@media (min-width: 1550px) {
+    .i__main__section-text{
+        padding: 0 20% 0 0;
+    }
+
+    .i__section-donated-costs{
+        padding: 0 20% 110px 20%;
+    }
+}

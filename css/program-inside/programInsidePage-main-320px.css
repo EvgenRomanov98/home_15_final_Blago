@@ -7,7 +7,6 @@
     height: 290px;
     width: 100%;
     object-fit: cover;
-    /*object-position: 60%;*/
 }
 
 .pi__gray-layer {
@@ -20,37 +19,195 @@
     z-index: 1;
 }
 
-.pi__main__section--content{
+.pi__main__section--content {
     padding-top: 24px;
     padding-bottom: 56px;
 }
 
-.pi__section__h2{
-    padding-bottom: 24px;
+.pi__section__h2 {
+    /*padding-bottom: 24px;*/
     font-family: "Montserrat", serif;
     font-size: 2rem;
     color: #282828;
     line-height: 1.1;
 }
 
-.pi__section__h2:first-child{
-    padding-bottom: 13px;
+.pi__section__div--fb{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
 }
 
-.pi__section__p--start{
+.fb--outline{
+    padding-top: 13px;
+    padding-left: 32px;
+}
+
+.pi__section__hr--help-army{
+    margin: 0 0 15px 0;
+    opacity: 0.2;
+    border: solid 0.5px #ffffff;
+}
+
+.pi__section__p--start {
     color: #a1a1a1;
-    padding-bottom: 32px;
+    padding-top: 13px;
+    padding-bottom: 16px;
 }
 
-.pi__section__p--sum{
+.pi--green-color {
+    color: #24bb13;
+}
+
+.pi__section__p--sum {
     font-family: "Montserrat", serif;
     font-size: 1.4rem;
     line-height: normal;
     letter-spacing: 1px;
-    color: #24bb13;
     padding: 8px 0 16px 0;
 }
 
-.pi__section__p--sum__span{
+.pi__section__p--sum__span {
     font-size: 1rem;
+}
+
+.pi__form-donated--sum {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(257deg, #73db4e, #1db80e);
+    padding: 6px 6px 0 6px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.pi__form-donated__label {
+    width: 100%;
+}
+
+.pi__input-donated {
+    width: calc(100% - 24px);
+    padding: 10px 0 10px 24px;
+    box-sizing: content-box;
+    border-radius: 4px;
+    border: 0;
+}
+
+.pi__button-donated {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    width: 100%;
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin: 17px 43px;
+    text-align: center;
+}
+
+.pi__list--sum-donated {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+
+.pi__list__item {
+    line-height: 1;
+}
+
+.pi__list__li__a--sum {
+    font-family: "Montserrat", serif;
+    font-size: 0.8rem;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a1a1a1;
+}
+
+.pi__section {
+    padding-top: 40px;
+    padding-bottom: 56px;
+    background-color: #f8f8f8;
+}
+
+.pi__section__p--text {
+    padding-top: 24px;
+    padding-bottom: 56px;
+}
+
+.pi__section__article--right {
+    display: flex;
+    flex-direction: column;
+}
+
+.pi__article--photo-report {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pi__section-photo-report__img--previous {
+    transform: rotate(180deg);
+}
+
+.pi__article--photo-report__div {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pi__article__div__img--photo-report {
+    width: 50%;
+    height: 80px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+.pi__article__div__img--photo-report:nth-child(odd) {
+    padding-right: 5px;
+}
+
+.pi__article__div__img--photo-report:nth-child(even) {
+    padding-left: 5px;
+}
+
+.pi__article__div__img--photo-report:nth-child(n+5) {
+    padding-bottom: 0;
+}
+
+.pi__section__button--show-more {
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #424242;
+    text-align: center;
+    padding: 8px 0;
+    background-color: #f8f8f8;
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+}
+
+.pi__main__section__article {
+    background-color: #f8f8f8;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pi__article__p--info-donated {
+    padding-right: 15px;
+}
+
+.pi__main__section-donated__article__p--sum {
+    color: #24bb13;
+    font-family: "Montserrat", serif;
+}
+
+.pi__article__h3 {
+
 }

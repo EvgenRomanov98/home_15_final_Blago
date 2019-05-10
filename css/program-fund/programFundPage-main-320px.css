@@ -68,7 +68,7 @@
     padding: 24px 0;
 }
 
-.button-donated {
+.i__button-donated {
     text-decoration: none;
     border-radius: 8px;
     background-image: linear-gradient(to right, #1eb80f, #73da4e);
@@ -81,6 +81,6 @@
     margin-top: 24px;
 }
 
-.button-donated--text {
+.i__button-donated--text {
     font-size: 1.3rem;
 }
