@@ -32,19 +32,27 @@
     line-height: 1.1;
 }
 
-.pi__section__div--fb{
+.pi__section__div--fb {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
 }
 
-.fb--outline{
-    padding-top: 13px;
-    padding-left: 32px;
+.pi__fb--outline {
+    background: url("../../img/fb-outline.svg") no-repeat;
+    margin-top: 13px;
+    margin-left: 32px;
+    width: 123px;
+    height: 25px;
+    transition: .2s all;
 }
 
-.pi__section__hr--help-army{
+.pi__fb--outline:hover {
+    background: url("../../img/fb-outline-hover.svg") no-repeat;
+}
+
+.pi__section__hr--help-army {
     margin: 0 0 15px 0;
     opacity: 0.2;
     border: solid 0.5px #ffffff;
@@ -148,7 +156,36 @@
 }
 
 .pi__section-photo-report__img--previous {
+    display: inline-block;
+    background: url("../../img/next.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+    transition: .2s all;
     transform: rotate(180deg);
+}
+
+.pi__section-photo-report__img--previous:hover {
+    background: url("../../img/next-hover.svg") no-repeat;
+}
+
+.pi__section-photo-report__img--previous:active {
+    background: url("../../img/next-click.svg") no-repeat;
+}
+
+.pi__section-photo-report__img--next {
+    display: inline-block;
+    background: url("../../img/next.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+    transition: .2s all;
+}
+
+.pi__section-photo-report__img--next:hover {
+    background: url("../../img/next-hover.svg") no-repeat;
+}
+
+.pi__section-photo-report__img--next:active {
+    background: url("../../img/next-click.svg") no-repeat;
 }
 
 .pi__article--photo-report__div {

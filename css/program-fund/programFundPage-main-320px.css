@@ -30,10 +30,28 @@
     padding: 0 0 24px 0;
 }
 
+.section__h2 {
+    font-size: 1.6rem;
+    font-family: "Montserrat", serif;
+    line-height: 1.09;
+    letter-spacing: normal;
+    color: #282828;
+}
+
 .section-info__h2 {
     font-family: "Montserrat", serif;
     font-size: 1.5rem;
     line-height: 1.1;
+}
+
+.pf__section__a--text-redirect-pi {
+    text-decoration: none;
+    color: #282828;
+    font-size: 1.5rem;
+}
+
+.pf__section__a--text-redirect-pi:hover {
+    color: #24bb13;
 }
 
 .section__article {
@@ -68,7 +86,7 @@
     padding: 24px 0;
 }
 
-.i__button-donated {
+.pf__button-donated {
     text-decoration: none;
     border-radius: 8px;
     background-image: linear-gradient(to right, #1eb80f, #73da4e);
@@ -81,6 +99,8 @@
     margin-top: 24px;
 }
 
-.i__button-donated--text {
+.pf__button-donated--text {
     font-size: 1.3rem;
+    font-family: "Montserrat", serif;
 }
+

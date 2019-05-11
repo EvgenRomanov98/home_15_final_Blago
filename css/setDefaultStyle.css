@@ -26,3 +26,9 @@ body {
     font-family: "Rawline", serif;
     color: #424242
 }
+
+.i__button-donated:hover, .pi__form-donated--sum:hover, .pf__button-donated:hover {
+    transition: .2s all;
+    background-image: linear-gradient(264deg, #6ce243, #1ccb0b);
+}
+
