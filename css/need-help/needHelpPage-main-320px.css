@@ -57,22 +57,18 @@
 }
 
 .article--arrow-next {
-    background: url("../../img/next.svg") no-repeat;
-    width: 40px;
-    height: 40px;
-    display: block;
     position: absolute;
     right: 1rem;
     bottom: calc(50% - 20px);
     transition: .2s all;
 }
 
-.need-help__section__article:hover > .section__article__a > .article--arrow-next{
-    background: url("../../img/next-hover.svg") no-repeat;
+.need-help__section__article:hover > .section__article__a > .article--arrow-next {
+    filter: invert(64%) sepia(50%) saturate(2%) hue-rotate(318deg) brightness(91%) contrast(91%);
 }
 
-.need-help__section__article:active > .section__article__a > .article--arrow-next{
-    background: url("../../img/next-click.svg") no-repeat;
+.need-help__section__article:active > .section__article__a > .article--arrow-next {
+    filter: invert(43%) sepia(91%) saturate(1831%) hue-rotate(82deg) brightness(109%) contrast(85%);
 }
 
 .need-help__section__article:last-child {

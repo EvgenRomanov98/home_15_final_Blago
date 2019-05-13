@@ -1,41 +1,88 @@
-.i__main__section-news {
-    position: relative;
-    width: 100%;
-}
+/*.i__main__section-news {*/
+/*position: relative;*/
+/*width: 100%;*/
+/*}*/
 
 .i__main--carousel {
     position: relative;
     height: 460px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(1, 1, 1, 0.1), rgba(1, 1, 1, 0.1));;
 }
 
 .i__main__img {
+    position: relative;
     height: 460px;
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
     object-position: 60%;
 }
 
+.section__img--arrows {
+    position: relative;
+    z-index: inherit;
+}
+
+.section__img--arrows:hover {
+    filter: sepia(40%) brightness(146%);
+    -webkit-filter: sepia(40%) brightness(146%);
+    -moz-filter: sepia(40%) brightness(146%);
+}
+
+.i__slide--container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.i__slide--content {
+    position: relative;
+    top: 150px
+}
+
+#two .i__slide--content {
+    top: 80px
+}
+
 .i__gray-layer {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(1, 1, 1, 0.3));
+    width: 100%;
+    height: 460px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(1, 1, 1, 0.4));
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
-.i__main__section-text {
-    position: absolute;
-    z-index: 2;
-    font-family: "Montserrat", serif;
-    color: #fff;
-    letter-spacing: 0.3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 12rem;
+#i1, #i2 {
+    display: none;
+}
 
+#two {
+    position: absolute;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two {
+    display: block;
+    z-index: 10;
+    animation: scroll 1s ease-in;
+}
+
+#i1:not(:checked) ~ #one,
+#i2:not(:checked) ~ #two {
+    display: none;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
 }
 
 .i__arrows-1080px-full {
@@ -44,12 +91,19 @@
 
 .i__main__section-text__h2 {
     padding: 0 0 24px 0;
-    font-size: 1.8rem;
+    font-family: "Montserrat", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
 }
 
-.i__section-news--button-and-arrows-789px {
+.i__arrows-320px-1079px {
     display: flex;
-    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .i__button-donated {
@@ -65,9 +119,18 @@
 
 .i__button-donated--text {
     font-size: 1.3rem;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 10%;
 }
 
-.i__main__section__arrow {
+.i__section__arrow--left {
     padding: 24px 24px 0 0;
 }
 

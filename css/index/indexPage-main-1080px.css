@@ -1,14 +1,21 @@
-.i__main__section-text {
+.i__slide--content {
     width: 50%;
     margin-left: 50%;
-    padding: 0 105px 0 0;
-    top: 112px;
+    top: 110px;
+}
+
+#two .i__slide--content {
+    top: 110px;
 }
 
 .i__main__section-text__h2 {
     width: 100%;
     font-size: 3rem;
     padding: 0 0 32px 0;
+}
+
+#two .i__main__section-text__h2 {
+    font-size: 2.5rem;
 }
 
 .i__button-donated {

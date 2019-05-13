@@ -37,18 +37,10 @@ footer {
     padding-top: 20px;
 }
 
-.i__li--fb {
-    width: 88px;
-}
-
-.i__fb {
-    background: url("../../img/fb.svg") no-repeat;
-    width: 100%;
-    height: 100%;
-    display: block;
-    /*background-repeat: ;*/
-}
-
 .i__fb:hover {
-    background: url("../../img/fb-hover.svg") no-repeat;
+    filter: invert(27%) sepia(77%) saturate(774%) hue-rotate(193deg) brightness(95%) contrast(86%);
+}
+
+.i__inst:hover {
+    filter: invert(40%) sepia(100%) saturate(1228%) hue-rotate(321deg) brightness(102%) contrast(100%);
 }

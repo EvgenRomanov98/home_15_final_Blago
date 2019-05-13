@@ -40,16 +40,19 @@
 }
 
 .pi__fb--outline {
-    background: url("../../img/fb-outline.svg") no-repeat;
+    /*background: url("../../img/fb-outline.svg") no-repeat;*/
     margin-top: 13px;
     margin-left: 32px;
-    width: 123px;
-    height: 25px;
-    transition: .2s all;
+    filter: ;
+    /*width: 123px;*/
+    /*height: 25px;*/
+    /*transition: .2s all;*/
 }
 
 .pi__fb--outline:hover {
-    background: url("../../img/fb-outline-hover.svg") no-repeat;
+    /*background: url("../../img/fb-outline-hover.svg") no-repeat;*/
+    /*filter: invert(32%) sepia(15%) saturate(2026%) hue-rotate(182deg) brightness(96%) contrast(92%);*/
+    background-color: #395793 ;
 }
 
 .pi__section__hr--help-army {
@@ -156,36 +159,36 @@
 }
 
 .pi__section-photo-report__img--previous {
-    display: inline-block;
-    background: url("../../img/next.svg") no-repeat;
-    width: 40px;
-    height: 40px;
+    /*display: inline-block;*/
+    /*background: url("../../img/next.svg") no-repeat;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
     transition: .2s all;
     transform: rotate(180deg);
 }
 
 .pi__section-photo-report__img--previous:hover {
-    background: url("../../img/next-hover.svg") no-repeat;
+    filter: invert(64%) sepia(50%) saturate(2%) hue-rotate(318deg) brightness(91%) contrast(91%);
 }
 
 .pi__section-photo-report__img--previous:active {
-    background: url("../../img/next-click.svg") no-repeat;
+    filter: invert(43%) sepia(91%) saturate(1831%) hue-rotate(82deg) brightness(109%) contrast(85%);
 }
 
 .pi__section-photo-report__img--next {
-    display: inline-block;
-    background: url("../../img/next.svg") no-repeat;
-    width: 40px;
-    height: 40px;
+    /*display: inline-block;*/
+    /*background: url("../../img/next.svg") no-repeat;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
     transition: .2s all;
 }
 
 .pi__section-photo-report__img--next:hover {
-    background: url("../../img/next-hover.svg") no-repeat;
+    filter: invert(64%) sepia(50%) saturate(2%) hue-rotate(318deg) brightness(91%) contrast(91%);
 }
 
 .pi__section-photo-report__img--next:active {
-    background: url("../../img/next-click.svg") no-repeat;
+    filter: invert(43%) sepia(91%) saturate(1831%) hue-rotate(82deg) brightness(109%) contrast(85%);
 }
 
 .pi__article--photo-report__div {

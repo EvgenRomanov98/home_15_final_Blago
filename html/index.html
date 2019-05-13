@@ -74,27 +74,64 @@
     </nav>
 </header>
 <main>
-    <section class="i__main__section-news">
-        <div class="i__main__section-text page-left-right-padding">
-            <div class="i__arrows-1080px-full">
-                <img src="../img/pages/main/arrowLeft.svg" alt="alt" class="i__main__section__arrow">
-                <img src="../img/pages/main/arrowRight.svg" alt="alt">
-            </div>
-            <h2 class="i__main__section-text__h2">Обладнання для лікування дітей Житомирщини</h2>
-            <div class="i__section-news--button-and-arrows-789px">
-                <a href="program-inside.html" class="i__button-donated"><span
-                        class="i__button-donated--text">Пежертвувати</span></a>
-                <div class="i__arrows-320px-1079px">
-                    <img src="../img/pages/main/arrowLeft.svg" alt="alt" class="i__main__section__arrow">
-                    <img src="../img/pages/main/arrowRight.svg" alt="alt">
+    <section class="i__main--carousel">
+        <input type="radio" id="i1" name="images" checked/>
+        <input type="radio" id="i2" name="images"/>
+        <div class="i__slide__img" id="one">
+            <img src="../img/pages/main/65.jpg" alt="alt" class="i__main__img">
+            <div class="i__gray-layer i__slide--container page-left-right-padding">
+                <div class="i__slide--content">
+                    <div class="i__arrows-1080px-full">
+                        <label class="prev" for="i2"><img src="../img/pages/main/arrowLeft.svg" alt="alt"
+                                                          class="i__section__arrow--left section__img--arrows"></label>
+                        <label class="next" for="i2"><img src="../img/pages/main/arrowRight.svg" alt="alt"
+                                                          class="section__img--arrows"></label>
+                    </div>
+                    <h2 class="i__main__section-text__h2">Обладнання для лікування дітей Житомирщини</h2>
+                    <div class="i__section-news--button-and-arrows-789px">
+
+                        <a href="program-inside.html" class="i__button-donated"><span
+                                class="i__button-donated--text">Пежертвувати</span></a>
+                        <div class="i__arrows-320px-1079px">
+                            <label class="prev" for="i2"><img src="../img/pages/main/arrowLeft.svg" alt="alt"
+                                                              class="i__section__arrow--left section__img--arrows"></label>
+                            <label class="next" for="i2"><img src="../img/pages/main/arrowRight.svg" alt="alt"
+                                                              class="section__img--arrows"></label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="i__main--carousel">
-            <div class="i__gray-layer"></div>
-            <img src="../img/pages/main/65.jpg" alt="alt" class="i__main__img">
+
+        <div class="i__slide_img" id="two">
+            <img src="../img/pages/main/69.jpg" alt="alt" class="i__main__img">
+
+            <div class="i__gray-layer i__slide--container page-left-right-padding">
+                <div class="i__slide--content">
+                    <div class="i__arrows-1080px-full">
+                        <label class="prev" for="i1"><img src="../img/pages/main/arrowLeft.svg" alt="alt"
+                                                          class="i__section__arrow--left section__img--arrows"></label>
+                        <label class="next" for="i1"><img src="../img/pages/main/arrowRight.svg" alt="alt"
+                                                          class="section__img--arrows"></label>
+                    </div>
+                    <h2 class="i__main__section-text__h2">Пацієнтам Волинської обласної дитячої лікарні подарували
+                        “світло”</h2>
+                    <div class="i__section-news--button-and-arrows-789px">
+
+                        <a href="program-inside.html" class="i__button-donated"><span
+                                class="i__button-donated--text">Пежертвувати</span></a>
+                        <div class="i__arrows-320px-1079px">
+                            <label class="prev" for="i1"><img src="../img/pages/main/arrowLeft.svg" alt="alt"
+                                                              class="i__section__arrow--left section__img--arrows"></label>
+                            <label class="next" for="i1"><img src="../img/pages/main/arrowRight.svg" alt="alt"
+                                                              class="section__img--arrows"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
 
     <section class="i__main__section--gray-background">
         <div class="page-left-right-padding i__section-gray-background--width-789x">
@@ -330,11 +367,13 @@
             </ul>
             <p>Мы в соц. сетях:</p>
             <ul class="footer--list-soc-net">
-                <li class="i__li--fb">
-                    <a href="https://www.facebook.com/blago.privatbank" class="footer__soc-net i__fb"></a>
+                <li>
+                    <a href="https://www.facebook.com/blago.privatbank"><img src="../img/fb.svg" alt="fb"
+                                                                             class="footer__soc-net i__fb"></a>
                 </li>
                 <li><a href="https://www.instagram.com/privatbank_original"><img src="../img/insta.svg" alt="instagram"
-                                                                                 class="footer__soc-net"></a></li>
+                                                                                 class="footer__soc-net i__inst"></a>
+                </li>
             </ul>
         </div>
 

@@ -1,9 +1,22 @@
+.i__gray-layer {
+    height: 600px;
+}
+
 .i__main__section-text__h2 {
     width: 90%;
     font-size: 2.6rem;
 }
 
+.i__slide--content {
+    top: 300px;
+}
+
+#two .i__slide--content {
+    top: 260px;
+}
+
 .i__section-news--button-and-arrows-789px {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -12,7 +25,7 @@
     width: 40%;
 }
 
-.i__main__section__arrow {
+.i__section__arrow--left {
     padding: 0 24px 0 0;
 }
 

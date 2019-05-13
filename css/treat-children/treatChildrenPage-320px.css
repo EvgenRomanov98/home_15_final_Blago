@@ -25,6 +25,7 @@
 .section--form {
     padding-top: 40px;
     padding-bottom: 56px;
+    position: relative;
 }
 
 .section-form__h2 {
@@ -36,6 +37,7 @@
 }
 
 .form__fieldset {
+    position: relative;
     padding-top: 24px;
     padding-bottom: 56px;
 }
@@ -61,10 +63,20 @@
     padding: 1rem 24px;
     width: 80%;
     max-width: 370px;
+    font-size: 1rem;
+    /*height: 15px;*/
+}
+
+.tc__input--FIO {
+    max-width: 540px;
+}
+
+.form__input:focus, .form__input:focus + .tc__p--input-file-value {
+    outline: #24bb13 1px solid;
 }
 
 .form__input--date {
-    background: #fff url(../../img/calender.svg) 90% 50% no-repeat;
+    background: #fff url(../../img/calender.svg) 95% 50% no-repeat;
 }
 
 .form__input--date::-webkit-inner-spin-button {
@@ -73,10 +85,96 @@
 
 .form__input--date::-webkit-calendar-picker-indicator {
     opacity: 0;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.tc__form__select {
+    max-width: 420px;
+}
+
+.form__input:hover {
+    border: solid 1px #424242;
+}
+
+.tc__input--file-container {
+    position: relative;
+}
+
+.input--file {
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+
+.tc__p--input-file-value {
+    position: relative;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    padding: 1.2rem 25px;
+    width: 100%;
+    max-width: 420px;
+    margin: 0;
+    background: #fff url("../../img/file.svg") 95% 50% no-repeat;
 }
 
 .section-form__p {
     padding-top: 16px;
+}
+
+.tc__input--checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.tc__label--checkbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tc__label--checkbox::before {
+    content: "";
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    transition: .5s ease;
+    margin-right: 16px;
+}
+
+.tc__label--checkbox:active::before {
+    transform: scale(0);
+}
+
+.tc__checkbox--confirm-information {
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #24bb13;
+    text-decoration: none;
+}
+
+.tc__checkbox--confirm-information:hover {
+    color: #3fdb2d;
+}
+
+
+.tc__input--checkbox:checked + .tc__label--checkbox::before {
+    border-color: #24bb13;
+    text-align: center;
+    content: "\2714";
+    width: 22px;
+    height: 22px;
+    background-color: #24bb13;
 }
 
 .button-send {
@@ -99,7 +197,6 @@
 @media (min-width: 789px) {
     .section__div--789px {
         display: flex;
-        /*justify-content: space-between;*/
         align-items: center;
     }
 
@@ -109,6 +206,25 @@
         padding: 0;
         margin-left: 30%;
         margin-right: 20px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .tc__form__fieldset--inputs-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .tc__fieldset__div--input-rows {
+        width: 50%;
+        padding-right: 32px;
+        max-width: 495px;
+    }
+
+    .tc__input--sum {
+        padding: 17px 24px
     }
 }
 
