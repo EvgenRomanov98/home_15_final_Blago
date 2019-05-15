@@ -1,13 +1,101 @@
-.main__section {
+.pf__main__nav--item {
+    font-family: "Montserrat", serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #282828;
+    opacity: 0.2;
+}
+
+.pf__main__nav--checkbox {
+    display: none;
+}
+
+#input--current__label {
+    padding-right: 2rem;
+}
+
+.pf__main__nav--checkbox:checked + .pf__main__nav--item {
+    opacity: 1;
+}
+
+.section__h2 {
+    font-size: 1.6rem;
+    font-family: "Montserrat", serif;
+    line-height: 1.09;
+    letter-spacing: normal;
+    color: #282828;
+}
+
+/*.tc__section-info__h2 {*/
+    /*font-family: "Montserrat", serif;*/
+    /*font-size: 1.5rem;*/
+    /*line-height: 1.1;*/
+/*}*/
+
+.pf__section__a--text-redirect-pi {
+    text-decoration: none;
+    color: #282828;
+    font-size: 1.5rem;
+}
+
+.pf__section__a--text-redirect-pi:hover {
+    color: #24bb13;
+}
+
+.section__article {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 16px 24px;
+}
+
+.section__article__p {
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    padding-top: 8px;
+    line-height: 1;
+    font-weight: bold;
+    color: #24bb13;
+}
+
+.section__article__p--end {
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    padding-top: 8px;
+    line-height: 1;
+    font-weight: bold;
+    color: #282828;
+}
+
+.pf__button-donated {
+    text-decoration: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #1eb80f, #73da4e);
+    padding: 1rem;
+    color: #fff;
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 24px;
+}
+
+.pf__button-donated--text {
+    font-size: 1.3rem;
+    font-family: "Montserrat", serif;
+}
+
+/*320*/
+
+.pf__main__section {
     display: flex;
     flex-direction: row;
     padding-bottom: 110px;
+    padding-top: 40px;
 }
 
-.main__section__img {
+
+.pf__main__section__img {
     width: 50%;
-    min-height: 250px;
-    max-height: 460px;
     padding-bottom: 0;
     margin-right: 46px;
     object-fit: cover;
@@ -23,17 +111,49 @@
 .section--info-card {
     display: flex;
     flex-direction: row;
+    max-width: 450px;
+    padding: 24px 0;
 }
 
 .program-fund__main {
     padding-top: 80px;
+    background-color: #f8f8f8;
+    margin-top: 24px;
 }
 
 .section__article:first-child {
     margin-bottom: 0;
+    padding-right: 0;
 }
 
-.section--info-card {
-    max-width: 450px;
+/*select page*/
+
+.pf__main--finished-program {
+    display: none;
 }
+
+.pf__main--finished-program .pf__button-donated {
+    display: none;
+}
+
+#input--current:checked ~ .main__nav > #input--current__label,
+#input--finished:checked ~ .main__nav > #input--finished__label {
+    opacity: 1;
+}
+
+#input--current:checked ~ .pf__main--current-program,
+#input--finished:checked ~ .pf__main--finished-program {
+    display: block;
+}
+
+#input--current:not(:checked) ~ .pf__main--current-program,
+#input--finished:not(:checked) ~ .pf__main--finished-program {
+    display: none;
+}
+
+#input--finished:checked ~ .pf__main--finished-program .main--right-section{
+   margin-bottom: 150px;
+}
+
+
 

@@ -1,3 +1,99 @@
+.i__gray-layer {
+    height: 600px;
+}
+
+.i__section-news--button-and-arrows-789px {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.i__section__arrow--left {
+    padding: 0 24px 0 0;
+}
+
+.i__main__section-text {
+    bottom: 80px;
+    top: auto;
+}
+
+.i__main__img {
+    height: 600px;
+}
+
+.i__main__section--gray-background {
+    padding: 80px 0 110px 0;
+}
+
+.i__main__section-fund-h2 {
+    font-size: 2.6rem;
+    padding-bottom: 2.6rem;
+    padding-top: 0;
+}
+
+.i__section-fund__span--count-donated {
+    font-size: 2.6rem;
+    letter-spacing: 15px;
+}
+
+.i__main__section-program--info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 0 40px 0;
+}
+
+/*.i__main__section__h2 {*/
+    /*padding: 0;*/
+    /*font-size: 2.6rem;*/
+/*}*/
+
+.i__main__section-program--show-all {
+    padding: 0;
+    align-self: center;
+}
+
+.i__section-program--789px {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.i__padding-bottom30px {
+    padding-bottom: 30px;
+}
+
+.i__section__h2--padding {
+    padding: 80px 0 40px 0;
+}
+
+.i__section-costs {
+    margin-bottom: 80px;
+}
+
+.i__main__section-history--info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.i__section-program__img {
+    margin-bottom: 40px;
+    height: 320px;
+}
+
+.i__section-history__img {
+    height: 340px;
+}
+
+.i__section-help__img {
+    height: 410px;
+}
+
+/*789*/
+
 .i__slide--content {
     width: 50%;
     margin-left: 50%;
@@ -52,10 +148,8 @@
 
 .i__main__section-fund--count-donated {
     width: 100%;
-}
-
-.i__section-fund__span--count-donated {
-    letter-spacing: 15px;
+    max-width: 430px;
+    font-size: 2.6rem;
 }
 
 .i__main__section-card__article {
@@ -110,7 +204,7 @@
 
 .i__section-history-789px__article {
     width: 50%;
-    padding: 0 0 110px 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
@@ -121,7 +215,7 @@
 }
 
 .i__main__section__h2--789px {
-    padding: 80px 0 40px 0;
+    padding: 80px 0 40px 0 !important;
 }
 
 .i__section-program__img {
@@ -131,6 +225,7 @@
 .i__section-help__article {
     width: 100%;
     flex-direction: row;
+    padding-bottom: 110px;
 }
 
 .i__section-help--content {
@@ -144,5 +239,10 @@
 }
 
 .i__main__section__h2 {
+    padding: 0;
     font-size: 3rem;
+}
+
+.i__section__h2--padding {
+    padding: 80px 0 40px 0;
 }

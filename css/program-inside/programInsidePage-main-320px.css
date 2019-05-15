@@ -25,7 +25,6 @@
 }
 
 .pi__section__h2 {
-    /*padding-bottom: 24px;*/
     font-family: "Montserrat", serif;
     font-size: 2rem;
     color: #282828;
@@ -40,18 +39,12 @@
 }
 
 .pi__fb--outline {
-    /*background: url("../../img/fb-outline.svg") no-repeat;*/
     margin-top: 13px;
     margin-left: 32px;
     filter: ;
-    /*width: 123px;*/
-    /*height: 25px;*/
-    /*transition: .2s all;*/
 }
 
 .pi__fb--outline:hover {
-    /*background: url("../../img/fb-outline-hover.svg") no-repeat;*/
-    /*filter: invert(32%) sepia(15%) saturate(2026%) hue-rotate(182deg) brightness(96%) contrast(92%);*/
     background-color: #395793 ;
 }
 
@@ -159,10 +152,6 @@
 }
 
 .pi__section-photo-report__img--previous {
-    /*display: inline-block;*/
-    /*background: url("../../img/next.svg") no-repeat;*/
-    /*width: 40px;*/
-    /*height: 40px;*/
     transition: .2s all;
     transform: rotate(180deg);
 }
@@ -176,10 +165,6 @@
 }
 
 .pi__section-photo-report__img--next {
-    /*display: inline-block;*/
-    /*background: url("../../img/next.svg") no-repeat;*/
-    /*width: 40px;*/
-    /*height: 40px;*/
     transition: .2s all;
 }
 
@@ -204,6 +189,59 @@
     object-fit: cover;
     padding-bottom: 10px;
 }
+
+
+/*indexPage.css*/
+
+.i__main__section__h2 {
+    font-family: "Montserrat", serif;
+    font-size: 2rem;
+    padding: 2.5rem 0 2rem 0;
+}
+
+.i__main__section__article--time {
+    color: #a1a1a1;
+}
+
+.i__main__section-donated__article--name {
+    color: #424242;
+    font-weight: bold;
+}
+
+.i__main__section__article {
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.i__main__section-costs__article__p {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.i__main__section__article__p--costs {
+    color: #24bb13;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+}
+
+.i__main__section__article--gray-text {
+    color: #a1a1a1;
+    font-weight: normal;
+}
+
+.i__section-costs {
+    margin-bottom: 40px;
+}
+
+/**/
 
 .pi__article__div__img--photo-report:nth-child(odd) {
     padding-right: 5px;
@@ -246,8 +284,4 @@
 .pi__main__section-donated__article__p--sum {
     color: #24bb13;
     font-family: "Montserrat", serif;
-}
-
-.pi__article__h3 {
-
 }

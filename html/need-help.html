@@ -5,29 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Потрібна допомога?</title>
 
+    <link rel="preload" as="font" href="../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff2" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff" type="font/woff"
+          crossorigin="anonymous">
+
+    <link rel="preload" as="font" href="../fonts/rawline/Rawline-Regular-latin-cyrillic.woff2" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/rawline/Rawline-Regular-latin-cyrillic.woff" type="font/woff"
+          crossorigin="anonymous">
+
     <link rel="preload" as="style" type="text/css" href="../css/reset.css">
     <link rel="preload" as="style" type="text/css" href="../css/setDefaultStyle.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/setDefaultStyle.css">
 
     <link rel="preload" as="style" type="text/css" href="../css/header/header-320px.css">
-    <link rel="preload" as="style" type="text/css" href="../css/header/header-789px.css" media="(min-width: 789px)">
-    <link rel="preload" as="style" type="text/css" href="../css/header/header-1080px.css" media="(min-width: 1150px)">
     <link rel="stylesheet" href="../css/header/header-320px.css">
-    <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px) and (max-width: 1149.98px)">
     <link rel="stylesheet" href="../css/header/header-1080px.css" media="(min-width: 1150px)">
 
+    <link rel="preload" as="style" type="text/css" href="../css/need-help/needHelpPage-main-320px.css">
     <link rel="stylesheet" href="../css/need-help/needHelpPage-main-320px.css">
+    <link rel="stylesheet" href="../css/treat-children/treatChildrenPage-320px.css">
 
     <link rel="preload" as="style" type="text/css" href="../css/footer/footer-320px.css">
-    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
-    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
     <link rel="stylesheet" href="../css/footer/footer-320px.css">
-    <link rel="stylesheet" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/footer/footer-789px.css" media="(min-width: 789px) and (max-width: 1079.98px)">
     <link rel="stylesheet" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
 
     <link rel="dns-prefetch" href="https://www.facebook.com/blago.privatbank">
     <link rel="dns-prefetch" href="https://www.instagram.com/privatbank_original/">
+
+    <script async src="../js/fileInputModifier.js"></script>
 </head>
 <body>
 <header class="page-left-right-padding">
@@ -41,61 +51,346 @@
     <nav class="header__nav">
         <a href="program-fund.html" class="header__nav__item">Програми фонду</a>
         <a href="about-fund.html" class="header__nav__item header__a--about-fund">Про Фонд</a>
-        <a href="need-help.html" class="header__nav__item">Потрібна допомога?</a>
+        <label for="select-need-help-page" id="header__label--need-help" class="header__nav__item target-page">Потрібна допомога?</label>
     </nav>
 </header>
 
-<main class="need-help__main page-left-right-padding">
-    <section class="main__section--left ">
-        <h1 class="main__section__h1">Хто може отримати допомогу?</h1>
-        <p class="main__section__p">Метою створення фонду стало здійснення благодійної діяльності в інтересах
-            суспільства, окремих груп,
-            категорій осіб, які потребують опіки, захисту; надання моральної, матеріальної та фінансової підтримки
-            фізичним та юридичним особам; сприяння розвитку освіти і культури. Для цього залучаються ЗМІ, підприємства,
-            установи, організації, населення, українська діаспора.</p>
-    </section>
+<main>
 
-    <div class="main__section--right">
-        <article class="need-help__section__article">
-            <a href="treat-children.html" class="section__article__a">
-                <img src="../img/next.svg" alt="next" class="article--arrow-next">
-                <div class="article--content">
-                    <img src="../img/pages/need-help/ic-duck.svg" alt="duck" class="article__img">
-                    <h2 class="article__h2">Лікування дітей</h2>
-                </div>
-            </a>
-        </article>
+    <input type="radio" class="input--select-page" name="select-page" id="select-need-help-page" checked>
+    <input type="radio" class="input--select-page" name="select-page" id="select-treat-child-page">
+    <input type="radio" class="input--select-page" name="select-page" id="select-help-legal-entities-page">
+    <input type="radio" class="input--select-page" name="select-page" id="select-cooperation-page">
+    <input type="radio" class="input--select-page" name="select-page" id="select-application-status-page">
+    <input type="radio" class="input--select-page" name="select-page" id="select-processing-personal-data-page">
 
-        <article class="need-help__section__article">
-            <a href="#" class="section__article__a">
-                <img src="../img/next.svg" alt="next" class="article--arrow-next">
-                <div class="article--content">
-                    <img src="../img/pages/need-help/ic-bis.svg" alt="bis" class="article__img">
-                    <h2 class="article__h2">Допомога юридичним особам</h2>
-                </div>
-            </a>
-        </article>
+    <div class="need-help__main page-left-right-padding">
+        <section class="main__section--left ">
+            <h1 class="main__section__h1">Хто може отримати допомогу?</h1>
+            <p class="main__section__p">Метою створення фонду стало здійснення благодійної діяльності в інтересах
+                суспільства, окремих груп,
+                категорій осіб, які потребують опіки, захисту; надання моральної, матеріальної та фінансової підтримки
+                фізичним та юридичним особам; сприяння розвитку освіти і культури. Для цього залучаються ЗМІ,
+                підприємства,
+                установи, організації, населення, українська діаспора.</p>
+        </section>
 
-        <article class="need-help__section__article">
-            <a href="#" class="section__article__a">
-                <img src="../img/next.svg" alt="next" class="article--arrow-next">
-                <div class="article--content">
-                    <img src="../img/pages/need-help/ic-work.svg" alt="work" class="article__img">
-                    <h2 class="article__h2">Співробі<span>тництво</span></h2>
-                </div>
-            </a>
-        </article>
+        <div class="main__section--right">
+            <div class="need-help__section__article">
+                <label for="select-treat-child-page" class="section__article__a">
+                    <img src="../img/next.svg" alt="next" class="article--arrow-next">
+                    <span class="article--content">
+                        <img src="../img/pages/need-help/ic-duck.svg" alt="duck" class="article__img">
+                        <span class="article__h2">Лікування дітей</span>
+                    </span>
+                </label>
+            </div>
 
-        <article class="need-help__section__article">
-            <a href="#" class="section__article__a">
-                <img src="../img/next.svg" alt="next" class="article--arrow-next">
-                <div class="article--content">
-                    <img src="../img/pages/need-help/ic-check.svg" alt="check" class="article__img">
-                    <h2 class="article__h2">Статус заявки</h2>
-                </div>
-            </a>
-        </article>
+            <div class="need-help__section__article">
+                <label for="select-help-legal-entities-page" class="section__article__a">
+                    <img src="../img/next.svg" alt="next" class="article--arrow-next">
+                    <span class="article--content">
+                        <img src="../img/pages/need-help/ic-bis.svg" alt="bis" class="article__img">
+                        <span class="article__h2">Допомога юридичним особам</span>
+                    </span>
+                </label>
+            </div>
+
+            <div class="need-help__section__article">
+                <label for="select-cooperation-page" class="section__article__a">
+                    <img src="../img/next.svg" alt="next" class="article--arrow-next">
+                    <span class="article--content">
+                        <img src="../img/pages/need-help/ic-work.svg" alt="work" class="article__img">
+                        <span class="article__h2">Співробі<span>тництво</span></span>
+                    </span>
+                </label>
+            </div>
+
+            <div class="need-help__section__article">
+                <label for="select-application-status-page" class="section__article__a">
+                    <img src="../img/next.svg" alt="next" class="article--arrow-next">
+                    <span class="article--content">
+                        <img src="../img/pages/need-help/ic-check.svg" alt="check" class="article__img">
+                        <span class="article__h2">Статус заявки</span>
+                    </span>
+                </label>
+            </div>
+        </div>
     </div>
+    <!----------------------------------------------------------------------------------------->
+    <div class="treat-child-page">
+        <section class="page-left-right-padding tc__main__section--info">
+            <div class="tc__section__div--789px">
+                <img src="../img/pages/need-help/ic-duck.svg" alt="кря" class="tc__main__section__img">
+                <h2 class="tc__section-info__h2">Діти, до 18 років за напрямками:</h2>
+            </div>
+            <ul class="tc__section__list">
+                <li>онкологія;</li>
+                <li>важкі генетичні, інфекційні та інші хвороби;</li>
+                <li>дитячий церебральний параліч;</li>
+                <li>реанімаційна допомога;</li>
+                <li>невідкладна оперативна допомога (ДТП, нещасні випадки).</li>
+            </ul>
+            <p>*Невідкладне лікування (тільки при наявності медичного спрямування на лікування з переліком медикаментів
+                на
+                паперовому носії).</p>
+        </section>
+        <section class="tc__section--form page-left-right-padding">
+            <h2 class="tc__section-form__h2">Заповнити форму для надання допомоги:</h2>
+            <form class="section-form__form">
+                <fieldset class="tc__form__fieldset">
+                    <label for="input--date" class="tc__form__label">Дата народження дитини яка потребує
+                        допомоги</label>
+                    <input type="date" id="input--date" class="tc__form__input--date tc__form__input">
+
+                    <label for="input--name" class="tc__form__label">ПIБ дитини яка потребує допомоги</label>
+                    <input type="text" id="input--name" class="tc__form__input tc__input--FIO">
+
+                    <label for="select--help" class="tc__form__label">Допомога необхідна</label>
+                    <select id="select--help" class="tc__form__input tc__form__select">
+                        <option value="1" selected>Виберіть форму допомоги</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+
+                    <div class="tc__form__fieldset--inputs-row">
+                        <div class="tc__input--file-container tc__fieldset__div--input-rows">
+                            <label for="account--payment" class="tc__form__label">Рахунок на оплату</label>
+                            <input type="file" id="account--payment" class="tc__form__input tc__input--file">
+                            <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                        </div>
+
+                        <div class="tc__fieldset__div--input-rows">
+                            <label for="sum" class="tc__form__label">Вкажіть, будь ласка орієнтовну суму
+                                допомоги</label>
+                            <input type="text" id="sum" class="tc__form__input tc__input--sum" placeholder="ГРН">
+                        </div>
+                    </div>
+                </fieldset>
+                <h2 class="tc__section-form__h2">Додайте, будь ласка, скан копії документів:</h2>
+                <p class="tc__section-form__p">Для загрузки нескольких файлов, добавте файлы в архив zip или rar </p>
+                <fieldset class="tc__form__fieldset">
+                    <div class="tc__input--file-container">
+                        <label for="medical--history" class="tc__form__label">Історія хвороби</label>
+                        <input type="file" id="medical--history" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <div class="tc__input--file-container">
+                        <label for="birth--certificate" class="tc__form__label">Свідоцтво про народження дитини</label>
+                        <input type="file" id="birth--certificate" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <div class="tc__input--file-container">
+                        <label for="passport" class="tc__form__label">Паспорт одного з батьків/опікунів</label>
+                        <input type="file" id="passport" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <div class="tc__input--file-container">
+                        <label for="ITN" class="tc__form__label">ІПН одного з батьків/опікунів</label>
+                        <input type="file" id="ITN" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <label class="tc__form__label"><textarea name="text" cols="30" rows="10"
+                                                             placeholder="Обов'язковий коментар"
+                                                             class="tc__form__input"></textarea></label>
+
+                    <div class="nh__checkbox--container">
+                        <input type="checkbox" id="tc__input--checkbox" class="tc__input--checkbox">
+                        <label class="tc__label--checkbox" for="tc__input--checkbox">Я згоден
+                            на</label>
+                        <label for="select-processing-personal-data-page"
+                               class="tc__checkbox--confirm-information">
+                            передачу та обробку особистих даних</label>
+                    </div>
+
+                    <div class="tc__form__fieldset--inputs-row">
+                        <div class="tc__input--file-container tc__fieldset__div--input-rows">
+                            <label for="email" class="tc__form__label">Email адреса</label>
+                            <input type="email" id="email" class="tc__form__input" placeholder="@">
+                        </div>
+
+                        <div class="tc__fieldset__div--input-rows">
+                            <label for="phone" class="tc__form__label">Контактный номер телефона</label>
+                            <input type="tel" id="phone" class="tc__form__input" placeholder="+380">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <a href="#" class="tc__button-send"><span
+                        class="tc__button-send--text">Відправити</span></a>
+            </form>
+        </section>
+    </div>
+
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="help-legal-entities-page">
+        <section class="page-left-right-padding tc__main__section--info">
+            <div class="tc__section__div--789px">
+                <img src="../img/pages/need-help/ic-bis.svg" alt="bis" class="tc__main__section__img">
+                <h2 class="tc__section-info__h2">Допомога юридичним особам</h2>
+            </div>
+            <ul class="tc__section__list">
+                <li>військові частини та госпіталі;</li>
+                <li>обласні, міські, та районні лікарні;</li>
+                <li>диспансери, та не прибуткові державні установи медичного спрямування</li>
+            </ul>
+        </section>
+        <section class="tc__section--form page-left-right-padding">
+            <h2 class="tc__section-form__h2">Заповнити форму для надання допомоги:</h2>
+            <form class="section-form__form">
+                <fieldset class="tc__form__fieldset">
+                    <label for="select--region" class="tc__form__label">Регіон</label>
+                    <select id="select--region" class="tc__form__input tc__form__select">
+                        <option value="Київ" selected>Київ</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+
+                    <label for="input--name-organization" class="tc__form__label">Назва організації</label>
+                    <input type="text" id="input--name-organization" class="tc__form__input">
+
+                    <label for="input--name-EDRPOU" class="tc__form__label">ЕДРПОУ</label>
+                    <input type="text" id="input--name-EDRPOU" class="tc__form__input">
+
+                    <div class="tc__input--file-container">
+                        <label for="request--help" class="tc__form__label">Запит допомоги</label>
+                        <input type="file" id="request--help" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <div class="tc__input--file-container">
+                        <label for="financial-statements" class="tc__form__label">Фінансова звітність (Баланс,
+                            Фінансовий звіт)</label>
+                        <input type="file" id="financial-statements" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <label class="tc__form__label"><textarea name="text" cols="30" rows="10"
+                                                             placeholder="Обов'язковий коментар"
+                                                             class="tc__form__input"></textarea></label>
+
+                    <div class="nh__checkbox--container">
+                        <input type="checkbox" id="tc__input--checkbox2" class="tc__input--checkbox">
+                        <label class="tc__label--checkbox" for="tc__input--checkbox2">Я згоден
+                            на</label>
+                        <label for="select-processing-personal-data-page"
+                               class="tc__checkbox--confirm-information">
+                            передачу та обробку особистих даних</label>
+                    </div>
+
+                </fieldset>
+
+                <a href="#" class="tc__button-send"><span
+                        class="tc__button-send--text">Відправити</span></a>
+            </form>
+        </section>
+    </div>
+
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="cooperation-page">
+        <section class="page-left-right-padding tc__main__section--info">
+            <div class="tc__section__div--789px">
+                <img src="../img/pages/need-help/ic-work.svg" alt="bis" class="tc__main__section__img">
+                <h2 class="tc__section-info__h2">Розглядаємо пропозиції співпраці з:</h2>
+            </div>
+            <ul class="tc__section__list">
+                <li>українські благодійні фонди та діаспори;</li>
+                <li>благодійні організації;</li>
+                <li>неприбуткові организації.</li>
+            </ul>
+        </section>
+        <section class="tc__section--form page-left-right-padding">
+            <h2 class="tc__section-form__h2">Заповнити форму для надання допомоги:</h2>
+            <form class="section-form__form">
+                <fieldset class="tc__form__fieldset">
+                    <label for="input--name-organization3" class="tc__form__label">Назва організації</label>
+                    <input type="text" id="input--name-organization3" class="tc__form__input">
+
+                    <label for="input--name-EDRPOU3" class="tc__form__label">ЕДРПОУ</label>
+                    <input type="text" id="input--name-EDRPOU3" class="tc__form__input">
+
+                    <div class="tc__input--file-container">
+                        <label for="request--help3" class="tc__form__label">Запит допомоги</label>
+                        <input type="file" id="request--help3" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <div class="tc__input--file-container">
+                        <label for="financial-statements3" class="tc__form__label">Фінансова звітність (Баланс,
+                            Фінансовий звіт)</label>
+                        <input type="file" id="financial-statements3" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
+                    </div>
+
+                    <label class="tc__form__label"><textarea name="text" cols="30" rows="10"
+                                                             placeholder="Обов'язковий коментар"
+                                                             class="tc__form__input"></textarea></label>
+
+                    <label for="input--soc-net" class="tc__form__label">Посилання на сторінку в соціальних
+                        мережах</label>
+                    <input type="text" id="input--soc-net" class="tc__form__input">
+
+                    <div class="nh__checkbox--container">
+                        <input type="checkbox" id="tc__input--checkbox3" class="tc__input--checkbox">
+                        <label class="tc__label--checkbox tc__label--checkbox3" for="tc__input--checkbox3">Я згоден
+                            на</label>
+                        <label for="select-processing-personal-data-page"
+                               class="tc__checkbox--confirm-information">
+                            передачу та обробку особистих даних</label>
+                    </div>
+
+                </fieldset>
+
+                <a href="#" class="tc__button-send"><span
+                        class="tc__button-send--text">Відправити</span></a>
+            </form>
+        </section>
+    </div>
+
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="application-status-page">
+        <section class="page-left-right-padding tc__main__section--info">
+            <div class="tc__section__div--789px">
+                <img src="../img/pages/need-help/ic-check.svg" alt="check" class="tc__main__section__img">
+                <h2 class="tc__section-info__h2">Перевірити статус заявки</h2>
+            </div>
+            <form class="section-form__form">
+                <fieldset class="tc__form__fieldset">
+                    <label for="input--phone" class="tc__form__label">Введіть номер телефону</label>
+                    <input type="tel" id="input--phone" class="tc__form__input" placeholder="+380">
+                </fieldset>
+
+                <a href="#" class="tc__button-send"><span
+                        class="tc__button-send--text">Перевірити</span></a>
+
+            </form>
+        </section>
+    </div>
+
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="processing-personal-data page-left-right-padding tc__main__section--info">
+        <section class="nh__section--personal-data">
+
+            <h2 class="tc__section-info__h2">Згода на обробку персональних даних</h2>
+
+            <p>Даною заявою даю згоду на передачу, збереження і обробку моїх персональних даних в базі персональних
+                даних «Контрагенти» Всеукраїнського благодійного фонду «Допомагати просто!» з метою оформлення
+                цивільно-правових відносин та подання звітності до контролюючих органів.
+                З правами фізичної особи відповідно до статті 8 Закону України «Про захист персональних даних»
+                №2297-VI
+                від 01.06.2010р. - ознайомлений.</p>
+        </section>
+    </div>
+
 </main>
 <hr class="hr--after-section">
 
@@ -113,7 +408,8 @@
                                                                              class="footer__soc-net i__fb"></a>
                 </li>
                 <li><a href="https://www.instagram.com/privatbank_original"><img src="../img/insta.svg" alt="instagram"
-                                                                                 class="footer__soc-net i__inst" ></a></li>
+                                                                                 class="footer__soc-net i__inst"></a>
+                </li>
             </ul>
         </div>
 

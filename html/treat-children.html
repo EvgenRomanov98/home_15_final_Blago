@@ -5,27 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Лікування дітей</title>
 
+    <link rel="preload" as="font" href="../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff2" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff" type="font/woff"
+          crossorigin="anonymous">
+
+    <link rel="preload" as="font" href="../fonts/rawline/Rawline-Regular-latin-cyrillic.woff2" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/rawline/Rawline-Regular-latin-cyrillic.woff" type="font/woff"
+          crossorigin="anonymous">
+
     <link rel="preload" as="style" type="text/css" href="../css/reset.css">
     <link rel="preload" as="style" type="text/css" href="../css/setDefaultStyle.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/setDefaultStyle.css">
 
     <link rel="preload" as="style" type="text/css" href="../css/header/header-320px.css">
-    <link rel="preload" as="style" type="text/css" href="../css/header/header-789px.css" media="(min-width: 789px)">
-    <link rel="preload" as="style" type="text/css" href="../css/header/header-1080px.css" media="(min-width: 1080px)">
     <link rel="stylesheet" href="../css/header/header-320px.css">
-    <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px) and (max-width: 1079.98px)">
     <link rel="stylesheet" href="../css/header/header-1080px.css" media="(min-width: 1080px)">
 
     <link rel="preload" as="style" type="text/css" href="../css/treat-children/treatChildrenPage-320px.css">
     <link rel="stylesheet" href="../css/treat-children/treatChildrenPage-320px.css">
 
     <link rel="preload" as="style" type="text/css" href="../css/footer/footer-320px.css">
-    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
-    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
     <link rel="stylesheet" href="../css/footer/footer-320px.css">
-    <link rel="stylesheet" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/footer/footer-789px.css" media="(min-width: 789px) and (max-width: 1079.98px)">
     <link rel="stylesheet" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
+
+    <link rel="dns-prefetch" href="https://www.facebook.com/blago.privatbank">
+    <link rel="dns-prefetch" href="https://www.instagram.com/privatbank_original/">
 
     <script async src="../js/fileInputModifier.js"></script>
 </head>
@@ -41,16 +50,16 @@
     <nav class="header__nav">
         <a href="program-fund.html" class="header__nav__item">Програми фонду</a>
         <a href="about-fund.html" class="header__nav__item header__a--about-fund">Про Фонд</a>
-        <a href="need-help.html" class="header__nav__item">Потрібна допомога?</a>
+        <a href="need-help.html" class="header__nav__item target-page">Потрібна допомога?</a>
     </nav>
 </header>
 <main>
-    <section class="page-left-right-padding main__section--info">
-        <div class="section__div--789px">
-            <img src="../img/pages/need-help/ic-duck.svg" alt="кря" class="main__section__img">
-            <h2 class="section-info__h2">Діти, до 18 років за напрямками:</h2>
+    <section class="page-left-right-padding tc__main__section--info">
+        <div class="tc__section__div--789px">
+            <img src="../img/pages/need-help/ic-duck.svg" alt="кря" class="tc__main__section__img">
+            <h2 class="tc__section-info__h2">Діти, до 18 років за напрямками:</h2>
         </div>
-        <ul class="section__list">
+        <ul class="tc__section__list">
             <li>онкологія;</li>
             <li>важкі генетичні, інфекційні та інші хвороби;</li>
             <li>дитячий церебральний параліч;</li>
@@ -60,18 +69,18 @@
         <p>*Невідкладне лікування (тільки при наявності медичного спрямування на лікування з переліком медикаментів на
             паперовому носії).</p>
     </section>
-    <section class="section--form page-left-right-padding">
-        <h2 class="section-form__h2">Заповнити форму для надання допомоги:</h2>
+    <section class="tc__section--form page-left-right-padding">
+        <h2 class="tc__section-form__h2">Заповнити форму для надання допомоги:</h2>
         <form class="section-form__form">
-            <fieldset class="form__fieldset">
-                <label for="input--date" class="form__label">Дата народження дитини яка потребує допомоги</label>
-                <input type="date" id="input--date" class="form__input--date form__input">
+            <fieldset class="tc__form__fieldset">
+                <label for="input--date" class="tc__form__label">Дата народження дитини яка потребує допомоги</label>
+                <input type="date" id="input--date" class="tc__form__input--date tc__form__input">
 
-                <label for="input--name" class="form__label">ПIБ дитини яка потребує допомоги</label>
-                <input type="text" id="input--name" class="form__input tc__input--FIO">
+                <label for="input--name" class="tc__form__label">ПIБ дитини яка потребує допомоги</label>
+                <input type="text" id="input--name" class="tc__form__input tc__input--FIO">
 
-                <label for="select--help" class="form__label">Допомога необхідна</label>
-                <select id="select--help" class="form__input tc__form__select">
+                <label for="select--help" class="tc__form__label">Допомога необхідна</label>
+                <select id="select--help" class="tc__form__input tc__form__select">
                     <option value="1" selected>Виберіть форму допомоги</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -80,65 +89,65 @@
 
                 <div class="tc__form__fieldset--inputs-row">
                     <div class="tc__input--file-container tc__fieldset__div--input-rows">
-                        <label for="account--payment" class="form__label">Рахунок на оплату</label>
-                        <input type="file" id="account--payment" class="form__input input--file">
-                        <p class="form__label tc__p--input-file-value">Завантажити файл</p>
+                        <label for="account--payment" class="tc__form__label">Рахунок на оплату</label>
+                        <input type="file" id="account--payment" class="tc__form__input tc__input--file">
+                        <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
                     </div>
 
                     <div class="tc__fieldset__div--input-rows">
-                        <label for="sum" class="form__label">Вкажіть, будь ласка орієнтовну суму допомоги</label>
-                        <input type="text" id="sum" class="form__input tc__input--sum" placeholder="ГРН">
+                        <label for="sum" class="tc__form__label">Вкажіть, будь ласка орієнтовну суму допомоги</label>
+                        <input type="text" id="sum" class="tc__form__input tc__input--sum" placeholder="ГРН">
                     </div>
                 </div>
             </fieldset>
-            <h2 class="section-form__h2">Додайте, будь ласка, скан копії документів:</h2>
-            <p class="section-form__p">Для загрузки нескольких файлов, добавте файлы в архив zip или rar </p>
-            <fieldset class="form__fieldset">
+            <h2 class="tc__section-form__h2">Додайте, будь ласка, скан копії документів:</h2>
+            <p class="tc__section-form__p">Для загрузки нескольких файлов, добавте файлы в архив zip или rar </p>
+            <fieldset class="tc__form__fieldset">
                 <div class="tc__input--file-container">
-                    <label for="medical--history" class="form__label">Історія хвороби</label>
-                    <input type="file" id="medical--history" class="form__input input--file">
-                    <p class="form__label tc__p--input-file-value">Завантажити файл</p>
+                    <label for="medical--history" class="tc__form__label">Історія хвороби</label>
+                    <input type="file" id="medical--history" class="tc__form__input tc__input--file">
+                    <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
                 </div>
 
                 <div class="tc__input--file-container">
-                    <label for="birth--certificate" class="form__label">Свідоцтво про народження дитини</label>
-                    <input type="file" id="birth--certificate" class="form__input input--file">
-                    <p class="form__label tc__p--input-file-value">Завантажити файл</p>
+                    <label for="birth--certificate" class="tc__form__label">Свідоцтво про народження дитини</label>
+                    <input type="file" id="birth--certificate" class="tc__form__input tc__input--file">
+                    <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
                 </div>
 
                 <div class="tc__input--file-container">
-                    <label for="passport" class="form__label">Паспорт одного з батьків/опікунів</label>
-                    <input type="file" id="passport" class="form__input input--file">
-                    <p class="form__label tc__p--input-file-value">Завантажити файл</p>
+                    <label for="passport" class="tc__form__label">Паспорт одного з батьків/опікунів</label>
+                    <input type="file" id="passport" class="tc__form__input tc__input--file">
+                    <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
                 </div>
 
                 <div class="tc__input--file-container">
-                    <label for="ITN" class="form__label">ІПН одного з батьків/опікунів</label>
-                    <input type="file" id="ITN" class="form__input input--file">
-                    <p class="form__label tc__p--input-file-value">Завантажити файл</p>
+                    <label for="ITN" class="tc__form__label">ІПН одного з батьків/опікунів</label>
+                    <input type="file" id="ITN" class="tc__form__input tc__input--file">
+                    <p class="tc__form__label tc__p--input-file-value">Завантажити файл</p>
                 </div>
 
-                <label class="form__label"><textarea name="text" cols="30" rows="10" placeholder="Обов'язковий коментар"
-                                                     class="form__input"></textarea></label>
+                <label class="tc__form__label"><textarea name="text" cols="30" rows="10" placeholder="Обов'язковий коментар"
+                                                         class="tc__form__input"></textarea></label>
 
                 <input type="checkbox" id="tc__input--checkbox" class="tc__input--checkbox">
                 <label class="tc__label--checkbox" for="tc__input--checkbox">Я згоден на <a href="#" class="tc__checkbox--confirm-information"> передачу та обробку особистих даних</a></label>
 
                 <div class="tc__form__fieldset--inputs-row">
                     <div class="tc__input--file-container tc__fieldset__div--input-rows">
-                        <label for="email" class="form__label">Email адреса</label>
-                        <input type="email" id="email" class="form__input" placeholder="@">
+                        <label for="email" class="tc__form__label">Email адреса</label>
+                        <input type="email" id="email" class="tc__form__input" placeholder="@">
                     </div>
 
                     <div class="tc__fieldset__div--input-rows">
-                        <label for="phone" class="form__label">Контактный номер телефона</label>
-                        <input type="tel" id="phone" class="form__input" placeholder="+380">
+                        <label for="phone" class="tc__form__label">Контактный номер телефона</label>
+                        <input type="tel" id="phone" class="tc__form__input" placeholder="+380">
                     </div>
                 </div>
             </fieldset>
 
-            <a href="#" class="button-send"><span
-                    class="button-send--text">Відправити</span></a>
+            <a href="#" class="tc__button-send"><span
+                    class="tc__button-send--text">Відправити</span></a>
         </form>
     </section>
 </main>

@@ -1,3 +1,84 @@
+.pi__main__section--carousel {
+    height: 600px;
+}
+
+.pi__main--carousel {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+
+.pi__main__img {
+    width: 100%;
+    height: 600px;
+}
+
+.pi__main__section--carousel .pi__section__h2, .pi__main__section--content p, .pi__list__li__a--sum, .pi__section__p--start {
+    color: #ffffff;
+}
+
+.pi_section__div--donated-and-costs {
+    display: flex;
+    flex-direction: row;
+}
+
+.pi__section--left-donated {
+    padding-right: 32px;
+}
+
+.pi__form-donated--sum {
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+}
+
+.pi__button-donated {
+    margin: 0;
+}
+
+.pi__list--sum-donated {
+    padding-left: 24px;
+    width: 60%;
+}
+
+/*789*/
+
+.i__section-donated-costs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 105px 110px 105px;
+}
+
+.i__section-donated {
+    width: 50%;
+}
+
+
+.i__main__section__h2 {
+    padding: 0;
+    font-size: 3rem;
+}
+
+.i__section-donated-costs > .page-left-right-padding {
+    padding: 0 10% 0 0;
+}
+
+.i__section-donated-costs > .i__section-costs {
+    padding: 0;
+    width: 50%;
+}
+
+.i__section__h2--padding {
+    padding: 80px 0 40px 0;
+}
+
+.i__section-costs{
+    padding-right: 0;
+}
+/*indexPage.css*/
+
+
 .pi__section__h2 {
     font-size: 3rem;
 }
@@ -6,10 +87,15 @@
     margin-left: 40%;
     width: 60%;
     top: 130px;
+    position: relative;
+    z-index: 10;
 }
 
 .pi__section {
     display: flex;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 110px;
 }
 
 .pi__section__div--left {
@@ -19,6 +105,7 @@
 
 .pi__section__p--text {
     padding-bottom: 0;
+    padding-top: 40px;
 }
 
 .pi__section__article--right {
@@ -35,6 +122,7 @@
 
 .pi__article__div__img--photo-report {
     width: 50%;
+    height: 140px;
 }
 
 .pi__article__div__img--photo-report:nth-child(odd) {
@@ -49,10 +137,23 @@
     padding-bottom: 0;
 }
 
+@media (min-width: 1366px) {
+    .i__section-donated-costs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0 10% 110px 10%;
+    }
+}
+
 @media (min-width: 1550px) {
     .pi__main__section--content {
         width: 70%;
         margin-left: 30%;
+    }
+
+    .i__section-donated-costs {
+        padding: 0 20% 110px 20%;
     }
 }
 

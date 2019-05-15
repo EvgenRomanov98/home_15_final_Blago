@@ -5,29 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Про Фонд</title>
 
+    <link rel="preload" as="font" href="../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff2" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/montserrat/montserrat-v13-cyrillic_latin-700.woff" type="font/woff"
+          crossorigin="anonymous">
+
+    <link rel="preload" as="font" href="../fonts/rawline/Rawline-Regular-latin-cyrillic.woff2" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" as="font" href="../fonts/rawline/Rawline-Regular-latin-cyrillic.woff" type="font/woff"
+          crossorigin="anonymous">
+
     <link rel="preload" as="style" type="text/css" href="../css/reset.css">
     <link rel="preload" as="style" type="text/css" href="../css/setDefaultStyle.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/setDefaultStyle.css">
 
     <link rel="preload" as="style" type="text/css" href="../css/header/header-320px.css">
-    <link rel="preload" as="style" type="text/css" href="../css/header/header-789px.css" media="(min-width: 789px)">
-    <link rel="preload" as="style" type="text/css" href="../css/header/header-1080px.css" media="(min-width: 1080px)">
+    <!--<link rel="preload" as="style" type="text/css" href="../css/header/header-789px.css" media="(min-width: 789px)">-->
+    <!--<link rel="preload" as="style" type="text/css" href="../css/header/header-1080px.css" media="(min-width: 1080px)">-->
     <link rel="stylesheet" href="../css/header/header-320px.css">
-    <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/header/header-789px.css" media="(min-width: 789px) and (max-width: 1079.98px)">
     <link rel="stylesheet" href="../css/header/header-1080px.css" media="(min-width: 1080px)">
 
-    <link rel="preload" as="style" type="text/css" href="../css/about-fund/aboutFundPage-main-320px.css">
-    <link rel="preload" as="style" type="text/css" href="../css/about-fund/aboutFundPage-main-1024px.css"
-          media="(min-width: 1024px)">
-    <link rel="stylesheet" href="../css/about-fund/aboutFundPage-main-320px.css">
+    <!--<link rel="preload" as="style" type="text/css" href="../css/about-fund/aboutFundPage-main-320px.css">-->
+    <!--<link rel="preload" as="style" type="text/css" href="../css/about-fund/aboutFundPage-main-1024px.css"-->
+    <!--media="(min-width: 1024px)">-->
+    <link rel="stylesheet" href="../css/about-fund/aboutFundPage-main-320px.css"
+          media="(max-width: 1023.98px)">
     <link rel="stylesheet" href="../css/about-fund/aboutFundPage-main-1024px.css" media="(min-width: 1024px)">
 
     <link rel="preload" as="style" type="text/css" href="../css/footer/footer-320px.css">
-    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
-    <link rel="preload" as="style" type="text/css" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
+    <!--<link rel="preload" as="style" type="text/css" href="../css/footer/footer-789px.css" media="(min-width: 789px)">-->
+    <!--<link rel="preload" as="style" type="text/css" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">-->
     <link rel="stylesheet" href="../css/footer/footer-320px.css">
-    <link rel="stylesheet" href="../css/footer/footer-789px.css" media="(min-width: 789px)">
+    <link rel="stylesheet" href="../css/footer/footer-789px.css" media="(min-width: 789px) and (max-width: 1079.98px)">
     <link rel="stylesheet" href="../css/footer/footer-1080px.css" media="(min-width: 1080px)">
 
     <link rel="dns-prefetch" href="https://www.facebook.com/blago.privatbank">
@@ -46,7 +57,7 @@
     </nav>
     <nav class="header__nav">
         <a href="program-fund.html" class="header__nav__item">Програми фонду</a>
-        <a href="about-fund.html" class="header__nav__item header__a--about-fund">Про Фонд</a>
+        <a href="about-fund.html" class="header__nav__item header__a--about-fund target-page">Про Фонд</a>
         <a href="need-help.html" class="header__nav__item">Потрібна допомога?</a>
     </nav>
 </header>
@@ -146,7 +157,8 @@
                                                                              class="footer__soc-net i__fb"></a>
                 </li>
                 <li><a href="https://www.instagram.com/privatbank_original"><img src="../img/insta.svg" alt="instagram"
-                                                                                 class="footer__soc-net i__inst" ></a></li>
+                                                                                 class="footer__soc-net i__inst"></a>
+                </li>
             </ul>
         </div>
 

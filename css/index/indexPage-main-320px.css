@@ -136,10 +136,11 @@
 
 .i__main__section--gray-background {
     background-color: #fafafa;
-    padding: 40px 0 56px 0;
+    padding-bottom: 56px;
 }
 
 .i__main__section-fund-h2 {
+    padding-top: 40px;
     padding-bottom: 1.6rem;
     font-family: "Montserrat", serif;
     font-size: 2rem;

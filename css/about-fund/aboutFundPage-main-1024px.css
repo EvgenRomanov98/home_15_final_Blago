@@ -1,10 +1,54 @@
+.section__p {
+    max-width: 560px;
+}
+
+.article__figure-portrait {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 330px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-circle {
+    padding: 0 24px 0 0;
+    clip-path: circle(49px at 50px 50px);
+}
+
+.article__list {
+    list-style: disc;
+    padding-left: 25px;
+    max-width: 780px;
+}
+
+.article__p--description {
+    padding-bottom: 16px;
+}
+
+.about-fund__section__article:last-child {
+    margin-bottom: 0;
+}
+
+.hr--after-section {
+    margin: 0;
+    border: solid 0.5px #d7d7d7;
+}
+
+/*320*/
+
 .about-fund--content {
     padding-top: 90px;
     padding-bottom: 110px;
+    margin-top: 24px;
+    background-color: #f8f8f8;
 }
 
 .about-fund__h1 {
     padding-bottom: 40px;
+    font-family: "Montserrat", serif;
+    font-size: 1.9rem;
+    color: #282828;
 }
 
 .about-fund__section__article {
@@ -13,14 +57,18 @@
 
 .article__h2 {
     width: 100%;
+    font-family: "Montserrat", serif;
+    font-size: 21px;
+    padding-bottom: 24px;
+    color: #282828;
 }
 
-.members{
+.members {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.figure-member{
+.figure-member {
     padding-right: 10px;
 }

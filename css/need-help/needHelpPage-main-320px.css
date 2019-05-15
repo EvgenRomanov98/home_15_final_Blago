@@ -75,6 +75,44 @@
     margin: 0;
 }
 
+.input--select-page {
+    display: none;
+}
+
+#select-need-help-page:checked + #header__label--need-help {
+    color: #24bb13;
+}
+
+#select-need-help-page:not(:checked) + #header__label--need-help {
+    color: #424242;
+}
+
+#select-need-help-page:checked ~ .need-help__main,
+#select-treat-child-page:checked ~ .treat-child-page,
+#select-help-legal-entities-page:checked ~ .help-legal-entities-page,
+#select-cooperation-page:checked ~ .cooperation-page,
+#select-application-status-page:checked ~ .application-status-page,
+#select-processing-personal-data-page:checked ~ .processing-personal-data {
+    display: block;
+}
+
+#select-need-help-page:not(:checked) ~ .need-help__main,
+#select-treat-child-page:not(:checked) ~ .treat-child-page,
+#select-help-legal-entities-page:not(:checked) ~ .help-legal-entities-page,
+#select-cooperation-page:not(:checked) ~ .cooperation-page,
+#select-application-status-page:not(:checked) ~ .application-status-page,
+#select-processing-personal-data-page:not(:checked) ~ .processing-personal-data {
+    display: none;
+}
+
+.nh__checkbox--container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
 @media (min-width: 789px) {
     .need-help__main {
         padding-top: 80px;
@@ -90,9 +128,34 @@
     .article__img {
         padding: 24px 16px 24px 24px;
     }
+
+    .nh__section--personal-data {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .nh__checkbox--container {
+        flex-direction: row;
+        align-items: center;
+    }
 }
 
 @media (min-width: 1024px) {
+    #select-need-help-page:checked ~ .need-help__main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tc__section-info__h2 {
+        font-size: 46px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .tc__main__section--info {
+        padding-top: 80px !important;
+        padding-bottom: 110px !important;
+    }
 
     .need-help__main {
         display: flex;

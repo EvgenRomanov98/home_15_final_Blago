@@ -27,12 +27,16 @@ body {
     color: #424242
 }
 
-.i__button-donated:hover, .pi__form-donated--sum:hover, .pf__button-donated:hover, .button-send:hover {
+.i__button-donated:hover, .pi__form-donated--sum:hover, .pf__button-donated:hover, .tc__button-send:hover {
     transition: .2s all;
     background-image: linear-gradient(264deg, #6ce243, #1ccb0b);
 }
 
-.pi__list__li__a--sum:hover, .i__main__section-program--show-all:hover, .i__main__section-fund--downloadPDF:hover{
+.pi__list__li__a--sum:hover, .i__main__section-program--show-all:hover, .i__main__section-fund--downloadPDF:hover {
     color: #3fdb2d;
+}
+
+.target-page {
+    color: #24bb13 !important;
 }
 

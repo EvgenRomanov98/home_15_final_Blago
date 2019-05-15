@@ -1,14 +1,14 @@
-.main__section--info {
+.tc__main__section--info {
     padding-bottom: 56px;
     padding-top: 40px;
     background-color: #f8f8f8;
 }
 
-.main__section__img {
+.tc__main__section__img {
     padding-bottom: 40px;
 }
 
-.section-info__h2 {
+.tc__section-info__h2 {
     display: block;
     font-family: "Montserrat", serif;
     font-size: 1.9rem;
@@ -17,18 +17,18 @@
     padding-bottom: 24px;
 }
 
-.section__list {
+.tc__section__list {
     list-style: disc;
     padding: 0 0 24px 25px;
 }
 
-.section--form {
+.tc__section--form {
     padding-top: 40px;
     padding-bottom: 56px;
     position: relative;
 }
 
-.section-form__h2 {
+.tc__section-form__h2 {
     font-family: "Montserrat", serif;
     font-size: 1.4rem;
     letter-spacing: 0.3px;
@@ -36,54 +36,53 @@
     color: #282828;
 }
 
-.form__fieldset {
+.tc__form__fieldset {
     position: relative;
     padding-top: 24px;
     padding-bottom: 56px;
 }
 
-.form__fieldset:nth-child(even) {
+.tc__form__fieldset:nth-child(even) {
     padding-bottom: 24px;
 }
 
-.form__label {
+.tc__form__label {
     display: block;
     margin: 16px 0;
     line-height: 1;
     width: 100%;
 }
 
-.form__label:first-child {
+.tc__form__label:first-child {
     padding-top: 0;
 }
 
-.form__input {
+.tc__form__input {
     border: 1px solid #757575;
     border-radius: 5px;
     padding: 1rem 24px;
     width: 80%;
     max-width: 370px;
     font-size: 1rem;
-    /*height: 15px;*/
 }
 
 .tc__input--FIO {
     max-width: 540px;
 }
 
-.form__input:focus, .form__input:focus + .tc__p--input-file-value {
+.tc__form__input:focus, .tc__form__input:focus + .tc__p--input-file-value {
     outline: #24bb13 1px solid;
 }
 
-.form__input--date {
+.tc__form__input--date {
     background: #fff url(../../img/calender.svg) 95% 50% no-repeat;
 }
 
-.form__input--date::-webkit-inner-spin-button {
+.tc__form__input--date::-webkit-inner-spin-button {
     display: none;
 }
 
-.form__input--date::-webkit-calendar-picker-indicator {
+.tc__form__input--date::-webkit-calendar-picker-indicator {
     opacity: 0;
     height: 15px;
     padding: 0;
@@ -94,7 +93,7 @@
     max-width: 420px;
 }
 
-.form__input:hover {
+.tc__form__input:hover {
     border: solid 1px #424242;
 }
 
@@ -102,7 +101,7 @@
     position: relative;
 }
 
-.input--file {
+.tc__input--file {
     position: absolute;
     opacity: 0;
     z-index: 10;
@@ -119,13 +118,14 @@
     background: #fff url("../../img/file.svg") 95% 50% no-repeat;
 }
 
-.section-form__p {
+.tc__section-form__p {
     padding-top: 16px;
 }
 
 .tc__input--checkbox {
     position: absolute;
     opacity: 0;
+    z-index: -10;
 }
 
 .tc__label--checkbox {
@@ -145,7 +145,7 @@
     background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 4px;
-    transition: .5s ease;
+    transition: .4s ease;
     margin-right: 16px;
 }
 
@@ -161,6 +161,8 @@
     letter-spacing: normal;
     color: #24bb13;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .tc__checkbox--confirm-information:hover {
@@ -177,7 +179,7 @@
     background-color: #24bb13;
 }
 
-.button-send {
+.tc__button-send {
     text-decoration: none;
     border-radius: 8px;
     background-image: linear-gradient(to right, #1eb80f, #73da4e);
@@ -190,17 +192,19 @@
     max-width: 420px;
 }
 
-.button-send--text {
+.tc__button-send--text {
     font-size: 1.3rem;
 }
 
+
+
 @media (min-width: 789px) {
-    .section__div--789px {
+    .tc__section__div--789px {
         display: flex;
         align-items: center;
     }
 
-    .main__section__img {
+    .tc__main__section__img {
         display: block;
         order: 2;
         padding: 0;
@@ -229,7 +233,7 @@
 }
 
 @media (min-width: 1600px) {
-    .main__section__img {
+    .tc__main__section__img {
         margin-left: 40%;
     }
 }

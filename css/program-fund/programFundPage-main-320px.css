@@ -4,30 +4,37 @@
     margin-top: 24px;
 }
 
-.main__nav--item {
+.pf__main__nav--item {
     font-family: "Montserrat", serif;
     font-size: 2rem;
     text-decoration: none;
     color: #282828;
-}
-
-.main__nav--item:first-child {
-    padding-right: 2rem;
-}
-
-.main__nav--item:last-child {
     opacity: 0.2;
 }
 
-.main__section {
+.pf__main__nav--checkbox {
+    display: none;
+}
+
+#input--current__label {
+    padding-right: 2rem;
+}
+
+.pf__main__nav--checkbox:checked + .pf__main__nav--item {
+    opacity: 1;
+}
+
+.pf__main__section {
     padding-bottom: 56px;
     padding-top: 40px;
 }
 
-.main__section__img {
+.pf__main__section__img {
     width: 100%;
     object-fit: cover;
     padding: 0 0 24px 0;
+    max-height: 400px;
+    min-height: 205px;
 }
 
 .section__h2 {
@@ -38,7 +45,7 @@
     color: #282828;
 }
 
-.section-info__h2 {
+.pf__section-info__h2 {
     font-family: "Montserrat", serif;
     font-size: 1.5rem;
     line-height: 1.1;
@@ -103,4 +110,29 @@
     font-size: 1.3rem;
     font-family: "Montserrat", serif;
 }
+
+/*select page*/
+.pf__main--finished-program {
+    display: none;
+}
+
+.pf__main--finished-program .pf__button-donated {
+    display: none;
+}
+
+#input--current:checked ~ .main__nav > #input--current__label,
+#input--finished:checked ~ .main__nav > #input--finished__label {
+    opacity: 1;
+}
+
+#input--current:checked ~ .pf__main--current-program,
+#input--finished:checked ~ .pf__main--finished-program {
+    display: block;
+}
+
+#input--current:not(:checked) ~ .pf__main--current-program,
+#input--finished:not(:checked) ~ .pf__main--finished-program {
+    display: none;
+}
+
 
